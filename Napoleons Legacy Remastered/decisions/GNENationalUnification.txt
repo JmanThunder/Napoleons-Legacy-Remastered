@@ -1,0 +1,111 @@
+political_decisions = {	
+	form_NEX = {
+		potential = {
+			tag = NEN
+			NOT = { 
+				exists = NEX
+			}
+		}
+		allow = {
+			war = no
+			owns = 243
+			owns = 247
+			owns = 232
+		}
+		effect = {
+			prestige = 15
+			change_tag = NEX
+			NEN = {
+				all_core = {
+					add_core = NEX
+					remove_core = NEN
+					remove_core = CAN
+					remove_core = USA
+					secede_province = THIS
+				}
+			}
+			USA_232 = {
+				add_core = NEX
+			}
+		}
+	}
+	
+	form_NEY_as_NEX_or_MRU = {
+		potential = {
+			OR = {
+				tag = NEX
+				tag = MRU
+			}
+			NOT = {
+				exists = NEY
+			}
+		}
+		allow = {
+			greater_power = yes
+			war = no
+			NEN = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						OR = {
+							owner = {
+								in_sphere = THIS
+								war = no
+							}
+							owner = {
+								vassal_of = THIS
+								war = no
+							}				
+						}
+					}
+				}
+			}
+			MRU = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						OR = {
+							owner = {
+								in_sphere = THIS
+								war = no
+							}
+							owner = {
+								vassal_of = THIS
+								war = no
+							}				
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 15
+			change_tag = NEY
+			add_accepted_culture = anglo_canadian
+			NEX = {
+				all_core = {
+					add_core = NEY
+					remove_core = CAN
+					remove_core = USA
+					remove_core = NEX
+					remove_core = NEN
+					secede_province = THIS
+				}
+				any_owned = {
+					secede_province = THIS
+				}
+			}
+			MRU = {
+				all_core = {
+					add_core = NEY
+					remove_core = CAN
+					remove_core = ENG
+					secede_province = THIS
+				}
+				any_owned = {
+					secede_province = THIS
+				}
+			}
+		}
+	}
+}

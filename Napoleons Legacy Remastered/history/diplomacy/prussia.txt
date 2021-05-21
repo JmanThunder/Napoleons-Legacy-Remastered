@@ -1,0 +1,8 @@
+# PRU-HOH
+vassal = {
+	first = PRU
+	second = HOH
+	start_date = 1555.1.1
+	end_date = 1850.11.23
+}
+
