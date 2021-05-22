@@ -1,10 +1,8 @@
-owner = SEG
-controller = SEG
-add_core = DND
+owner = MAS
+controller = MAS
+add_core = SEG
 add_core = MAS
+add_core = DND
 trade_goods = cattle
-life_rating = 25
-1861.1.1 = {
-	owner = MAS
-	controller = MAS
-}
+terrain = semidesert
+life_rating = 35

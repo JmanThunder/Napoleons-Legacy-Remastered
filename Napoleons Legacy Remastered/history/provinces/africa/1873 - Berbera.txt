@@ -1,6 +1,8 @@
-owner = MAJ
-controller = MAJ
+owner = WRL
+controller = WRL
+add_core = WRL
 add_core = MAJ
 add_core = GEL
-trade_goods = cotton
-life_rating = 30
+trade_goods = fish
+terrain = semidesert
+life_rating = 31

@@ -1,3 +1,4 @@
 add_core = BRD
-trade_goods = cotton
-life_rating = 15
+trade_goods = fruit
+terrain = montane_forest
+life_rating = 10

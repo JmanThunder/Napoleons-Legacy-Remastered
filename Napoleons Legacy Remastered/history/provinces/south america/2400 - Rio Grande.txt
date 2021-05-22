@@ -1,3 +1,4 @@
-trade_goods = wool
+add_core = PTG
+trade_goods = precious_metal
+terrain = new_world_arctic
 life_rating = 15
-colonial = 2

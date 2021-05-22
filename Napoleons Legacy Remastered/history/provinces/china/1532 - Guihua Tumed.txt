@@ -1,6 +1,5 @@
-owner = CHI
-controller = CHI
+owner = QNG
+controller = QNG
 add_core = CHI
-add_core = MGL
-trade_goods = coal
-life_rating = 35
+trade_goods = iron
+life_rating = 32

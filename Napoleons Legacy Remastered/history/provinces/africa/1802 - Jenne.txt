@@ -1,6 +1,7 @@
-owner = SEG
-controller = SEG
+owner = MAS
+controller = MAS
 add_core = SEG
 add_core = MAS
-trade_goods = grain
-life_rating = 30
+trade_goods = cattle
+terrain = semidesert
+life_rating = 32

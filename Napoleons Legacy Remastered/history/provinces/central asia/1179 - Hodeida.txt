@@ -1,7 +1,5 @@
-owner = TUR
-controller = TUR
+owner = NYE
+controller = NYE
 add_core = NYE
-add_core = ASR
 trade_goods = grain
 life_rating = 35
-colonial = 2
