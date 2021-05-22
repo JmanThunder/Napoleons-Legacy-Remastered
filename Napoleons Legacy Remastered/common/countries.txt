@@ -3,6 +3,9 @@
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 
+#Napoleon's Legacy Europe#
+DNN     = "countries/Denmark-Norway.txt"
+
 ### NEW NATIONS MOD ###
 
 #Latin America
