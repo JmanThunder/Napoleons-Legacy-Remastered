@@ -1,9 +1,11 @@
-owner = CRL
-controller = CRL
-add_core = CRL
-add_core = AFG
-add_core = KAS
+owner = PNJ
+controller = PNJ
 add_core = PNJ
-add_core = HND
+add_core = KAS
+add_core = AFG
 trade_goods = grain
 life_rating = 35
+1861.1.1 = {
+	owner = KAS
+	controller = KAS
+}

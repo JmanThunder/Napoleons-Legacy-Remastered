@@ -1,7 +1,5 @@
-owner = QAT
-controller = QAT
+owner = BHR
+controller = BHR
 add_core = BHR
-add_core = QAT
-trade_goods = fish
-terrain = semidesert
-life_rating = 34
+trade_goods = grain
+life_rating = 35

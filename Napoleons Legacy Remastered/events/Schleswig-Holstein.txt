@@ -162,7 +162,7 @@ country_event = {
 			relation = { who = SWH value = 50 }
 		}
 		ai_chance = {
-			factor = 45
+			factor = 85
 		}
 	}
 	option = {

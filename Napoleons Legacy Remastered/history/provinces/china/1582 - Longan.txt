@@ -1,5 +1,6 @@
-owner = QNG
-controller = QNG
+owner = SZC
+controller = SZC
 add_core = CHI
-trade_goods = cattle
-life_rating = 32
+add_core = SZC
+trade_goods = coal
+life_rating = 35

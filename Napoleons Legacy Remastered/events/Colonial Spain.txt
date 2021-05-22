@@ -1087,6 +1087,10 @@ country_event = {
 			has_country_flag = ostend_manifesto_published
 			has_country_flag = maine_incident
 			truce_with = SPA
+			relation = {
+				who = SPA
+				value = 50
+			}
 		}
 	}
 
@@ -1128,7 +1132,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA37704" #No
-		FROM = { country_event = 90132 }
+		USA = { country_event = 90132 }
 		ai_chance = {
 			factor = 75
 			modifier = {
@@ -1153,11 +1157,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.8
-				relation = { who = FROM value = 100 }
-			}
-			modifier = {
-				factor = 0.8
-				alliance_with = FROM
+				alliance_with = SPA
 			}
 		}
 	}
@@ -1175,18 +1175,6 @@ country_event = {
 			modifier = {
 				factor = 0
 				is_greater_power = yes
-			}
-			modifier = {
-				factor = 0.5
-				NOT = {
-					relation = { who = FROM value = 50 }
-				}
-			}
-			modifier = {
-				factor = 0.5
-				NOT = {
-					relation = { who = FROM value = -50 }
-				}
 			}
 		}
 	}

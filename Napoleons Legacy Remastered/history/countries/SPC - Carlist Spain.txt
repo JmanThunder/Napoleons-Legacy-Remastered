@@ -2,7 +2,6 @@ capital = 487
 primary_culture = spanish
 culture = catalan
 culture = basque
-culture = galician
 religion = catholic
 government = absolute_monarchy
 plurality = 0.0

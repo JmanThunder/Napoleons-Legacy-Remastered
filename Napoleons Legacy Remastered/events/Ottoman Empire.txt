@@ -535,9 +535,6 @@ country_event = {
 				duration = 730
 			}
 		}
-		ai_chance = {
-			factor = 30
-		}
 	}
 	
 	option = {
@@ -561,9 +558,6 @@ country_event = {
 				ideology = liberal
 				factor = 3
 			}
-		}
-		ai_chance = {
-			factor = 70
 		}
 	}
 }

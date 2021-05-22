@@ -204,11 +204,21 @@ political_decisions = {
 			1848 = { add_core = TIG }
 			1849 = { add_core = TIG }
 			1850 = { add_core = TIG }
+			change_tag = ETH
 			relation = {
 				who = EGY
 				value = 100
 			}
-			change_tag = ETH
+			any_country = {
+				limit = {
+					any_owned_province = { is_core = ETH }
+					civilized = no
+					NOT = { tag = EGY }
+					NOT = { tag = THIS }
+				}
+				relation = { who = THIS value = -400 }
+				leave_alliance = THIS
+			}
 			any_pop = { militancy = -4 }
 		}
 	}

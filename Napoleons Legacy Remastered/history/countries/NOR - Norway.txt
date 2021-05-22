@@ -39,7 +39,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 #Technologies
 post_napoleonic_thought = 1
@@ -73,7 +73,9 @@ nonstate_consciousness = 0
 
 schools = industrial_tech_school
 
+oob = "NOR_oob.txt"
 1861.1.1 = {
+	oob = "/1861/NOR_oob.txt"
 
 # Political reforms
 slavery = no_slavery

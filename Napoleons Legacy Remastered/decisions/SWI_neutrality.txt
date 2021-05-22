@@ -37,7 +37,7 @@ political_decisions = {
 		
 		allow = {
 			prestige = 30
-			military_score = 75	
+			military_score = 50	
 		}
 		
 		effect = {

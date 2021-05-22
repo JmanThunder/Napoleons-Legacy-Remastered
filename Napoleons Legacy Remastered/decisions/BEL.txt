@@ -231,6 +231,7 @@ political_decisions = {
 			change_tag = FLA
 			remove_accepted_culture = flemish
 			remove_accepted_culture = wallonian
+			remove_accepted_culture = picard
 			primary_culture = flemish
 			add_accepted_culture = dutch
 			any_pop = {
@@ -273,6 +274,7 @@ political_decisions = {
 			change_tag = WLL
 			remove_accepted_culture = flemish
 			remove_accepted_culture = dutch
+			add_accepted_culture = picard
 			capital = 392
 			any_pop = {
 				limit = { has_pop_culture = wallonian }
@@ -331,6 +333,7 @@ political_decisions = {
 			}
 			change_tag = BEL
 			add_accepted_culture = wallonian
+			add_accepted_culture = picard
 			remove_accepted_culture = dutch
 			capital = 387
 			random_country = {

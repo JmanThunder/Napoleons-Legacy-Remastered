@@ -58,12 +58,6 @@ country_event = {
 					duration = 730
 				}
 			}
-			any_owned = {
-				add_province_modifier = {
-					name = irish_integration
-					duration = 730
-				}
-			}
 		}
 		any_pop = {
 			limit = {

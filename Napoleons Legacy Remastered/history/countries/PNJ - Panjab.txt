@@ -18,7 +18,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 # Starting Consciousness
 consciousness = 0
@@ -30,6 +30,7 @@ flintlock_rifles = 1
 
 oob = "PAN_oob.txt"
 1861.1.1 = {
+	oob = "/1861/PAN_oob.txt"
 	literacy = 0.12
 	non_state_culture_literacy = 0.05
 	

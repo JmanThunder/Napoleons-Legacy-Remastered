@@ -5,7 +5,7 @@ religion = catholic
 government = democracy
 plurality = 0.0
 nationalvalue = nv_liberty
-literacy = 0.12
+literacy = 0.1
 civilized = yes
 
 # Political reforms
@@ -39,7 +39,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1

@@ -3,9 +3,6 @@
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 
-#Napoleon's Legacy Europe#
-DNN     = "countries/Denmark-Norway.txt"
-
 ### NEW NATIONS MOD ###
 
 #Latin America
@@ -172,8 +169,8 @@ KNY		= "countries/Kenya.txt"
 KON		= "countries/Kongo.txt"
 KUB		= "countries/Kuba.txt"
 KZB		= "countries/Kazembe.txt"
-LBY		= "countries/Libya.txt"
 LBA		= "countries/Luba.txt"
+LBY		= "countries/Libya.txt"
 LOA		= "countries/Loango.txt"
 LUN		= "countries/Lunda.txt"
 MAJ		= "countries/Majeerteen.txt"
@@ -510,20 +507,6 @@ TPG		="countries/Taiping.txt"
 
 ##HoD
 JAN 	= "countries/JanMayen.txt"
-
-
-#MiniMod
-NEX		="countries/Greater New England.txt"
-NEY		="countries/Union of Greater New England and Nova Scotia.txt"
-AGN		="countries/Aragon.txt"
-HNS		="countries/Hansa.txt"
-SPQ		="countries/Rome.txt"
-HOH 	="countries/Hohenzollern.txt"
-FIU		="countries/Fiume.txt"
-LVN		="countries/Lombardy-Venice.txt"
-CHK		="countries/Champasak.txt"
-IDO		="countries/Indochina.txt"
-GEN		="countries/Genoa.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

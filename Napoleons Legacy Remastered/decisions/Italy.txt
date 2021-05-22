@@ -468,10 +468,9 @@ political_decisions = {
 				remove_core = LUC
 				remove_core = PAR
 				remove_core = PAP
+				remove_core = VEN
 				remove_core = LOM
 				remove_core = RMG
-				remove_core = GEN
-				remove_core = LVN
 			}
 		}
 	}
@@ -487,15 +486,11 @@ political_decisions = {
 				invention = national_fraternity
 				is_greater_power = yes
 			}
-			is_vassal = no
 		}
 
 		effect = {
 			set_country_flag = italia_ulterior
 			AUS_729 = {
-				add_core = ITA
-			}
-			AUS_726 = {
 				add_core = ITA
 			}
 			AUS_734 = {
@@ -753,8 +748,11 @@ political_decisions = {
 				limit = {
 					is_culture_group = italian
 					is_greater_power = yes
-					THIS = {
-						NOT = { sphere_owner = { is_culture_group = italian } }
+					NOT = {
+						any_greater_power = {
+							NOT = { is_culture_group = italian }
+							is_sphere_leader_of = THIS
+						}
 					}
 				}
 				diplomatic_influence = {
@@ -771,6 +769,74 @@ political_decisions = {
 					value = 100
 				}
 			}
+		}
+	}
+
+	unite_with_tuscany = {
+		picture = gtfo
+		potential = {
+			tag = LUC
+			exists = TUS
+			NOT = { has_country_flag = unite_with_tuscany }
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			OR = {
+				part_of_sphere = no
+				AND = {
+					sphere_owner = { is_sphere_leader_of = TUS }
+					year = 1847
+				}
+			}
+			TUS = {
+				war = no
+				neighbour = LUC
+				is_vassal = no
+			}
+		}
+
+		effect = {
+			set_country_flag = unite_with_tuscany
+			all_core = {
+				remove_core = LUC
+				add_core = TUS
+			}
+			random_country = {
+				limit = {
+					tag = TUS
+					ai = yes
+					LUC = { ai = yes }
+				}
+				inherit = LUC
+			}
+			random_country = {
+				limit = {
+					tag = TUS
+					ai = yes
+					LUC = { ai = no }
+				}
+				any_owned = { secede_province = LUC }
+				LUC = {
+					random_owned = {
+						limit = { province_id = 744 }
+						owner = { capital = 744 }
+					}
+					change_tag = TUS
+				}	
+			}
+			random_country = {
+				limit = {
+					tag = TUS
+					ai = no
+				}
+				country_event = 60130
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	

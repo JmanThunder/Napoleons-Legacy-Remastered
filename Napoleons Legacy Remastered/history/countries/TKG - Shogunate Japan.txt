@@ -3,7 +3,7 @@ primary_culture = japanese
 religion = shinto
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.40
 non_state_culture_literacy = 0.10
 
@@ -37,7 +37,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 land_reform = yes_land_reform
 education_reform = yes_education_reform
@@ -59,6 +59,7 @@ oob = "TKG_oob.txt"
 	set_global_flag = iemochi_shogun
 	set_country_flag = sakuradamon_incident
 	set_country_flag = ansei_purge
+	decision = kobu_gattai
 }
 1861.1.1 = {
 

@@ -769,6 +769,18 @@ political_decisions = {
 				limit = {
 					is_core = THIS
 					is_core = YUG
+					OR = {
+						is_core = SER
+						is_core = BOS
+						is_core = CRO
+					}
+				}
+				remove_core = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = THIS
+					is_core = YUG
 				}
 				remove_core = YUG
 			}

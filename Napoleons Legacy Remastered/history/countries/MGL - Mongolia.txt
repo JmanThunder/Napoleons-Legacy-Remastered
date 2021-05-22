@@ -3,7 +3,7 @@ primary_culture = mongol
 religion = gelugpa
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.02
 non_state_culture_literacy = 0.04 #Chinese
 civilized = no
@@ -40,7 +40,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 foreign_weapons = yes_foreign_weapons
 
@@ -54,6 +54,7 @@ consciousness = 2
 nonstate_consciousness = 1
 
 1861.1.1 = {
+	oob = "/1861/MGL_oob.txt"
 	literacy = 0.04
 	non_state_culture_literacy = 0.07 #Chinese
 

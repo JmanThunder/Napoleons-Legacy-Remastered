@@ -4,7 +4,7 @@ culture = tibetan
 religion = hindu
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.02
 
 ruling_party = KAS_conservative

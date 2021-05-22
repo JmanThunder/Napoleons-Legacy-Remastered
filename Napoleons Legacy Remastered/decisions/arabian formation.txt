@@ -181,52 +181,20 @@ political_decisions = {
 			}
 			any_country = {
 				limit = {
-					in_sphere = THIS
 					OR = {
 						tag = NEJ
 						tag = HDJ
 						tag = ASR
 						tag = HAL
-						tag = BHR
-						tag = NYE
-						tag = YEM
-						tag = OMA
-						tag = ABU
 					}
 				}
 				annex_to = THIS
 			}
 			any_owned = {
-				limit = {
-					OR = {
-						is_core = OMA
-						is_core = ABU
-						is_core = NYE
-						is_core = YEM
-						is_core = BHR
-						is_core = NEJ
-						is_core = HDJ
-						is_core = ASR
-						is_core = HAL
-					}
-					NOT = { is_core = ZAN }
-				}
-				add_core = ARA
 				remove_core = NEJ
 				remove_core = HDJ
 				remove_core = ASR
 				remove_core = HAL
-				remove_core = OMA
-				remove_core = YEM
-				remove_core = NYE
-				remove_core = BHR
-				remove_core = ABU
-			}
-			any_owned = {
-				limit = {
-					is_core = THIS
-				}
-				remove_core = ARA
 			}
 			release_vassal = ARA
 			relation = { who = ARA value = 50 }

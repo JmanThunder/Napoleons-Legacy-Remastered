@@ -2124,22 +2124,7 @@ country_event = {
 				secede_province = THIS
 			}
 		}
-		ai_chance = {
-			factor = 85
-			modifier = {
-				factor = 0
-				NOT = { money = 12000 }
-			}
-		}
 	}
-
-	option = {
-		name = "We're not really in a position where we can push our claim."
-		ai_chance = {
-			factor = 15
-		}
-	}	
-	
 }
 
 #Line of Advantage Events

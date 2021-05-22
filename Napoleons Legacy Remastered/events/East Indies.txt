@@ -391,12 +391,209 @@ country_event = {
 				factor = 0
 				vassal_of = FROM
 			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 	}
 }
 
 
 country_event = {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	id = 97125
 	title = "Flores Purchase" #Flores Purchase
@@ -624,401 +821,5 @@ province_event = {
 			}
 		}
 		INO = { add_accepted_culture = melanesian }
-	}
-}
-
-## Indochina colony spread
-province_event = {
-	id = 97130
-	title = "EVTNAME98800"
-	desc = "EVTDESC971311"
-	
-	trigger = {
-		region = SIA_1366 #Cambodia
-		owned_by = THIS
-		controlled_by = THIS
-		any_neighbor_province = {
-			is_core = IDO
-		}
-		owner = {
-			civilized = yes
-			NOT = { is_culture_group = southeast_asian }
-		}
-		OR = {
-			AND = {
-				owner = { owns = 1380 }
-				IDO = { exists = no }
-			}
-			IDO = {
-				vassal_of = THIS
-				is_culture_group = THIS
-			}
-		}
-		NOT = {
-			is_core = IDO
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
-	
-	option = {
-		name = "An excellent development!"
-		state_scope = {
-			any_owned = {
-				limit = {
-					NOT = { is_core = IDO }
-				}
-				add_core = IDO
-				any_pop = { militancy = -3 }
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 1095
-				}
-			}
-		}
-		IDO = { add_accepted_culture = khmer }
-	}
-}
-
-province_event = {
-	id = 971311
-	title = "EVTNAME98800"
-	desc = "EVTDESC971311"
-	
-	trigger = {
-		OR = {
-			region = DAI_1375
-			region = DAI_1380
-			region = DAI_1369
-		}
-		owned_by = THIS
-		controlled_by = THIS
-		any_neighbor_province = {
-			is_core = IDO
-		}
-		owner = {
-			civilized = yes
-			NOT = { is_culture_group = southeast_asian }
-		}
-		OR = {
-			AND = {
-				owner = { owns = 1380 }
-				IDO = { exists = no }
-			}
-			IDO = {
-				vassal_of = THIS
-				is_culture_group = THIS
-			}
-		}
-		NOT = {
-			is_core = IDO
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
-	
-	option = {
-		name = "An excellent development!"
-		state_scope = {
-			any_owned = {
-				limit = {
-					NOT = { is_core = IDO }
-				}
-				add_core = IDO
-				any_pop = { militancy = -3 }
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 1095
-				}
-			}
-		}
-		IDO = { add_accepted_culture = vietnamese }
-	}
-}
-
-province_event = {
-	id = 97131
-	title = "EVTNAME98800"
-	desc = "EVTDESC971311"
-	
-	trigger = {
-		region = LUA_1356 #Laos
-		owned_by = THIS
-		controlled_by = THIS
-		any_neighbor_province = {
-			is_core = IDO
-		}
-		owner = {
-			civilized = yes
-			NOT = { is_culture_group = southeast_asian }
-		}
-		OR = {
-			AND = {
-				owner = { owns = 1380 }
-				IDO = { exists = no }
-			}
-			IDO = {
-				vassal_of = THIS
-				is_culture_group = THIS
-			}
-		}
-		NOT = {
-			is_core = IDO
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
-	
-	option = {
-		name = "An excellent development!"
-		state_scope = {
-			any_owned = {
-				limit = {
-					NOT = { is_core = IDO }
-				}
-				add_core = IDO
-				any_pop = { militancy = -3 }
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 1095
-				}
-			}
-		}
-		IDO = { add_accepted_culture = lao }
-	}
-}
-
-province_event = {
-	id = 97132
-	title = "EVTNAME98800"
-	desc = "EVTDESC971311"
-	
-	trigger = {
-		OR = {
-			region = SIA_1358 #Isan
-			region = SIA_1392 #Ayyuthaya
-			region = SIA_1352 #Pattani
-		}
-		owned_by = THIS
-		controlled_by = THIS
-		any_neighbor_province = {
-			is_core = IDO
-		}
-		owner = {
-			civilized = yes
-			NOT = { is_culture_group = southeast_asian }
-		}
-		OR = {
-			AND = {
-				owner = { owns = 1380 }
-				IDO = { exists = no }
-			}
-			IDO = {
-				vassal_of = THIS
-				is_culture_group = THIS
-			}
-		}
-		NOT = {
-			is_core = IDO
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
-	
-	option = {
-		name = "An excellent development!"
-		state_scope = {
-			any_owned = {
-				limit = {
-					NOT = { is_core = IDO }
-				}
-				add_core = IDO
-				any_pop = { militancy = -3 }
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 1095
-				}
-			}
-		}
-		IDO = { add_accepted_culture = thai }
-	}
-}
-
-province_event = {
-	id = 97132
-	title = "EVTNAME98800"
-	desc = "EVTDESC971311"
-	
-	trigger = {
-		OR = {
-			region = ENG_1343 #Isan
-			region = BUR_1330 #Ayyuthaya
-			region = BUR_1334 #Pattani
-			region = BUR_1339
-		}
-		owned_by = THIS
-		controlled_by = THIS
-		any_neighbor_province = {
-			is_core = IDO
-		}
-		owner = {
-			civilized = yes
-			NOT = { is_culture_group = southeast_asian }
-		}
-		OR = {
-			AND = {
-				owner = { owns = 1380 }
-				IDO = { exists = no }
-			}
-			IDO = {
-				vassal_of = THIS
-				is_culture_group = THIS
-			}
-		}
-		NOT = {
-			is_core = IDO
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
-	
-	option = {
-		name = "An excellent development!"
-		state_scope = {
-			any_owned = {
-				limit = {
-					NOT = { is_core = IDO }
-				}
-				add_core = IDO
-				any_pop = { militancy = -3 }
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 1095
-				}
-			}
-		}
-		IDO = { add_accepted_culture = burmese }
-	}
-}
-
-province_event = {
-	id = 97132
-	title = "EVTNAME98800"
-	desc = "EVTDESC971311"
-	
-	trigger = {
-		region = SIA_1355 #Isan
-		owned_by = THIS
-		controlled_by = THIS
-		any_neighbor_province = {
-			is_core = IDO
-		}
-		owner = {
-			civilized = yes
-			NOT = { is_culture_group = southeast_asian }
-		}
-		OR = {
-			AND = {
-				owner = { owns = 1380 }
-				IDO = { exists = no }
-			}
-			IDO = {
-				vassal_of = THIS
-				is_culture_group = THIS
-			}
-		}
-		NOT = {
-			is_core = IDO
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
-	
-	option = {
-		name = "An excellent development!"
-		state_scope = {
-			any_owned = {
-				limit = {
-					NOT = { is_core = IDO }
-				}
-				add_core = IDO
-				any_pop = { militancy = -3 }
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 1095
-				}
-			}
-		}
-		IDO = { add_accepted_culture = shan }
-	}
-}
-
-province_event = {
-	id = 97132
-	title = "EVTNAME98800"
-	desc = "EVTDESC971311"
-	
-	trigger = {
-		OR = {
-			region = CHI_1499
-			region = CHI_1493
-			region = CHI_1485
-		}
-		owned_by = THIS
-		controlled_by = THIS
-		any_neighbor_province = {
-			is_core = IDO
-		}
-		owner = {
-			civilized = yes
-			NOT = { is_culture_group = southeast_asian }
-		}
-		OR = {
-			AND = {
-				owner = { owns = 1380 }
-				IDO = { exists = no }
-			}
-			IDO = {
-				vassal_of = THIS
-				is_culture_group = THIS
-			}
-		}
-		NOT = {
-			is_core = IDO
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
-	
-	option = {
-		name = "An excellent development!"
-		state_scope = {
-			any_owned = {
-				limit = {
-					NOT = { is_core = IDO }
-				}
-				add_core = IDO
-				any_pop = { militancy = -3 }
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 1095
-				}
-			}
-		}
-		IDO = { add_accepted_culture = yue }
 	}
 }

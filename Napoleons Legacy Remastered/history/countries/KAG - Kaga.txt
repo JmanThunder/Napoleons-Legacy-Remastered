@@ -3,7 +3,7 @@ primary_culture = japanese
 religion = shinto
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.40
 
 # Political reforms
@@ -36,7 +36,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 set_country_flag = fudai_daimyo
 
 land_reform = yes_land_reform

@@ -3,13 +3,13 @@ primary_culture = romanian
 religion = orthodox
 government = absolute_monarchy
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_might
 literacy = 0.1
 civilized = yes
 prestige = 5
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = yes_meeting
@@ -38,7 +38,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
@@ -64,6 +64,9 @@ nonstate_consciousness = 0
 
 oob = "WAL_oob.txt"
 
+1861.1.1 = {
+	oob = "/1861/WAL_oob.txt"
+}
 1861.1.1 = {
 # Technologies
 	post_napoleonic_thought = 1

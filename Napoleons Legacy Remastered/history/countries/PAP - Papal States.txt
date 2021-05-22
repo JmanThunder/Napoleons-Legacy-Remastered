@@ -40,7 +40,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
@@ -80,6 +80,9 @@ oob = "PAP_oob.txt"
 	decision = the_case_of_edgardo_mortara 
 }
 
+1861.1.1 = {
+	oob = "/1861/PAP_oob.txt"
+}
 1861.1.1 = {
 	plurality = 60
 # Technologies

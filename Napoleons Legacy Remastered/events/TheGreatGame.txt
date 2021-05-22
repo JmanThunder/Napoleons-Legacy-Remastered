@@ -675,7 +675,7 @@ country_event = {
 					government = hms_government
 				}
 				NOT = {
-					relation = { who = THIS value = 100 }
+					relation = { who = THIS value = 50 }
 					is_sphere_leader_of = THIS
 					alliance_with = THIS
 					truce_with = THIS
@@ -693,7 +693,7 @@ country_event = {
 					government = hms_government
 				}
 				NOT = {
-					relation = { who = THIS value = 100 }
+					relation = { who = THIS value = 50 }
 					is_sphere_leader_of = THIS
 					truce_with = THIS
 					alliance_with = THIS

@@ -1,17 +1,17 @@
 #Sphere of Influence
 
 #Europe
+FIN = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
 SWE = {
 	value = 125
 	level = 3 	
 	influence_value = 0
 }
 SER = {
-	value = 125
-	level = 4
-	influence_value = 0
-}
-MON = {
 	value = 125
 	level = 4
 	influence_value = 0

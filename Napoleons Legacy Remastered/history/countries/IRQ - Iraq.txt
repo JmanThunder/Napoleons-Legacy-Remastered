@@ -4,7 +4,7 @@ culture = bedouin
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.28
 
 # Political reforms
@@ -53,7 +53,9 @@ water_wheel_power = 1
 # Starting Consciousness
 consciousness = 2
 nonstate_consciousness = 1
-
+1861.1.1 = {
+	oob = "/1861/IRQ_oob.txt"
+}
 1861.1.1 = {
 # Technologies
 	post_napoleonic_thought = 1

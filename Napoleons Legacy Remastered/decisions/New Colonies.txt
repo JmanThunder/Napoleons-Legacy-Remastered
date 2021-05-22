@@ -43,7 +43,6 @@ political_decisions = {
 			}
 			NGR = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -117,7 +116,6 @@ political_decisions = {
 			}
 			TOG = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -190,7 +188,6 @@ political_decisions = {
 			}
 			IVC = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -260,7 +257,6 @@ political_decisions = {
 			}
 			SLE = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -333,7 +329,6 @@ political_decisions = {
 			}
 			GNE = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -403,7 +398,6 @@ political_decisions = {
 			}
 			SNG = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -473,7 +467,6 @@ political_decisions = {
 			}
 			NIG = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -565,7 +558,6 @@ political_decisions = {
 			}
 			CHD = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -635,7 +627,6 @@ political_decisions = {
 			}
 			CMR = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -705,7 +696,6 @@ political_decisions = {
 			}
 			GAB = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -778,7 +768,6 @@ political_decisions = {
 			}
 			CGO = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -849,7 +838,6 @@ political_decisions = {
 			}
 			CNG = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -919,7 +907,6 @@ political_decisions = {
 			}
 			ZAM = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -990,7 +977,6 @@ political_decisions = {
 			}
 			KNY = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -1060,7 +1046,6 @@ political_decisions = {
 			}
 			TNZ = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -1149,7 +1134,6 @@ political_decisions = {
 			}
 			BMK = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -1240,7 +1224,6 @@ political_decisions = {
 			}
 			LBY = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -1261,6 +1244,8 @@ political_decisions = {
 			war = no
 			revolution_n_counterrevolution = 1
 			owns = 1731
+			owns = 1735
+			owns = 1740
 			TRI = { exists = no }
 			CYR = { exists = no }
 			
@@ -1285,7 +1270,6 @@ political_decisions = {
 			}
 			LBY = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 			TRI = {
 				all_core = { remove_core = TRI }
@@ -1361,7 +1345,6 @@ political_decisions = {
 			}
 			CAR = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -1437,7 +1420,6 @@ political_decisions = {
 			}
 			MLW = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -1507,7 +1489,6 @@ political_decisions = {
 			}
 			GMB = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}
 	}
@@ -1578,7 +1559,6 @@ political_decisions = {
 			}
 			ANG = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}	
 	}
@@ -1614,7 +1594,6 @@ political_decisions = {
 			}
 			MOZ = {
 				primary_culture = THIS
-				set_country_flag = civilize_after_release
 			}
 		}	
 	}
@@ -1648,7 +1627,7 @@ political_decisions = {
 				}
 			}
 			ALD = {
-				set_country_flag = civilize_after_release
+				civilized = yes
 				government = democracy
 				political_reform = landed_voting
 				capital = 1700
@@ -1690,7 +1669,7 @@ political_decisions = {
 				add_accepted_culture = baganda
 				government = democracy
 				political_reform = landed_voting
-				set_country_flag = civilize_after_release
+				civilized = yes
 			}
 			2019 = { change_province_name = "Kampala" }
 		}
@@ -1730,7 +1709,7 @@ political_decisions = {
 				add_accepted_culture = tswana
 				government = democracy
 				political_reform = landed_voting
-				set_country_flag = civilize_after_release
+				civilized = yes
 			}
 		}
 	}
@@ -1768,7 +1747,7 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				government = democracy
 				political_reform = landed_voting
-				set_country_flag = civilize_after_release
+				civilized = yes
 			}
 		}
 	}
@@ -1808,7 +1787,7 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				government = democracy
 				political_reform = landed_voting
-				set_country_flag = civilize_after_release
+				civilized = yes
 			}
 		}
 	}
@@ -1845,7 +1824,7 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				government = democracy
 				political_reform = landed_voting
-				set_country_flag = civilize_after_release
+				civilized = yes
 			}
 		}
 	}
@@ -1902,7 +1881,7 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				government = democracy
 				political_reform = landed_voting
-				set_country_flag = civilize_after_release
+				civilized = yes
 			}
 		}
 	}
@@ -1939,7 +1918,7 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				government = democracy
 				political_reform = landed_voting
-				set_country_flag = civilize_after_release
+				civilized = yes
 			}
 		}
 	}
@@ -1976,7 +1955,7 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				government = democracy
 				political_reform = landed_voting
-				set_country_flag = civilize_after_release
+				civilized = yes
 			}
 		}
 	}
@@ -2018,7 +1997,6 @@ political_decisions = {
 			}
 			INO = {
 				set_country_flag = post_colonial_country
-				set_country_flag = civilize_after_release
 				primary_culture = THIS
 				add_accepted_culture = javan
 			}
@@ -2072,178 +2050,4 @@ political_decisions = {
 			}
 		}	
 	}
-	
-	organize_indochina = {
-		potential = {
-			civilized = yes
-			NOT = {
-				exists = IDO
-				has_global_flag = indochina_organized
-				is_culture_group = southeast_asian
-			}
-			state_n_government = 1
-			owns = 1380
-		}
-		
-		allow = {
-			war = no
-			revolution_n_counterrevolution = 1
-			owns = 1380
-		}
-		
-		effect = {
-			set_global_flag = indochina_organized
-			prestige = 5
-			any_owned = {
-				limit = {
-					OR = {
-						region = DAI_1380 #Cochinchina
-						region = DAI_1375 #Annam
-						region = DAI_1369 #Tonkin
-					}
-				}
-				add_core = IDO
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 1095
-				}
-			}
-			IDO = {
-				set_country_flag = post_colonial_country
-				set_country_flag = civilize_after_release
-				primary_culture = THIS
-				add_accepted_culture = vietnamese
-			}
-		}
-	}
-	
-	reorganize_indochina = {
-		picture = organize_indochina
-		potential = {
-			civilized = yes
-			has_global_flag = indochina_organized
-			owns = 1380
-			IDO = {
-				exists = no
-				NOT = { is_culture_group = THIS }
-			}
-			NOT = {
-				is_culture_group = southeast_asian
-			}
-		}
-		
-		allow = {
-			war = no
-			revolution_n_counterrevolution = 1
-			owns = 1380
-		}
-		
-		effect = {
-			prestige = 5
-			IDO = {
-				all_core = {
-					limit = {
-						NOT = {
-							region = DAI_1380 #Cochinchina
-							region = DAI_1375 #Annam
-							region = DAI_1369 #Tonkin
-						}
-					}
-					remove_core = IDO
-				}
-				primary_culture = THIS
-				add_accepted_culture = vietnamese
-				remove_accepted_culture = lao
-				remove_accepted_culture = khmer
-				remove_accepted_culture = thai
-			}
-			any_pop = {
-				limit = {
-					location = { is_core = IDO }
-				}
-				militancy = -3
-			}
-		}	
-	}
-
-	form_indochina = {
-		potential = {
-			civilized = yes
-			NOT = {
-				exists = IDO
-				has_global_flag = indochina_organized
-			}
-			OR = {
-				tag = DAI
-				tag = CAM
-				tag = WIA
-				tag = LUA
-				tag = CHK
-			}
-			state_n_government = 1
-			owns = 1380
-		}
-		
-		allow = {
-			war = no
-			revolution_n_counterrevolution = 1
-			DAI_1380 = {
-				owned_by = THIS
-			}
-			DAI_1375 = {
-				owned_by = THIS
-			}
-			DAI_1369 = {
-				owned_by = THIS
-			}
-			LUA_1356 = {
-				owned_by = THIS
-			}
-			SIA_1366 = {
-				owned_by = THIS
-			}
-		}
-		
-		effect = {
-			change_tag = IDO
-			SIA_1366 = {
-				add_core = IDO
-			}
-			DAI_1375 = {
-				add_core = IDO
-			}
-			DAI_1380 = {
-				add_core = IDO
-			}
-			DAI_1369 = {
-				add_core = IDO
-			}
-			LUA_1356 = {
-				add_core = IDO
-			}
-			LUA = {
-				all_core = {
-					add_core = LXA
-					remove_core = LUA
-				}
-			}
-			WIA = {
-				all_core = {
-					add_core = LXA
-					remove_core = WIA
-				}
-			}
-			CHK = {
-				all_core = {
-					add_core = LXA
-					remove_core = CHK
-				}
-			}
-			prestige = 25
-			add_accepted_culture = khmer
-			add_accepted_culture = vietnamese
-			add_accepted_culture = lao
-		}
-	}	
-	
 }

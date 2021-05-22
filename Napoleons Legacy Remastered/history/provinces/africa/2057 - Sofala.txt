@@ -1,7 +1,6 @@
-owner = GAZ
-controller = GAZ
-add_core = GAZ
+owner = POR
+controller = POR
 add_core = SHO
-add_core = AGC
-trade_goods = grain
+trade_goods = tobacco
 life_rating = 35
+colonial = 2

@@ -32,7 +32,6 @@ political_decisions = {
 			2359 = { add_core = ENT }
 			2360 = { add_core = ENT }
 			2554 = { add_core = ENT }
-			2554 = { add_core = PRG }
 
 			#Equador Confederation
 			2427 = { add_core = CEQ }

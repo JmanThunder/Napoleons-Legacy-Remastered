@@ -3,7 +3,7 @@ primary_culture = polynesian
 religion = protestant
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_equality
+nationalvalue = nv_enlightenment
 literacy = 0.30
 non_state_culture_literacy = 0.05
 
@@ -35,7 +35,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 # Starting Consciousness
 consciousness = 0
@@ -43,7 +43,7 @@ nonstate_consciousness = 0
 
 oob = "HAW_oob.txt"
 1861.1.1 = {
-	
+	oob = "/1861/HAW_oob.txt"
 	literacy = 0.83
 
 	#Economic Reforms

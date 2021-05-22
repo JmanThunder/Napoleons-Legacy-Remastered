@@ -767,6 +767,107 @@ province_event = {
 	}
 }
 
+province_event = {
+	id = 164602
+	title = "EVTNAME164602" #Boxers in $STATENAME$
+	desc = "EVTDESC164602"
+	
+	trigger = {
+		controlled_by = THIS
+		is_core = CHI
+		NOT = {
+			is_core = TIB
+			is_core = XBI
+			is_core = GNG
+			is_core = YNN
+			is_core = MGL
+			is_core = FJN
+			has_province_modifier = peasant_revolt
+			average_militancy = 8
+		}
+		owner = {
+			tag = CHI
+			civilization_progress = 0.75
+			civilized = no
+			war = no
+		}
+		OR = {
+			has_province_modifier = western_presence
+			has_province_modifier = foreign_smugglers
+			has_province_modifier = foreign_trading_post
+			has_province_modifier = local_opium_habit
+			has_province_modifier = european_military_mission
+			has_province_modifier = extraterritoriality_granted
+			has_province_modifier = legation_quarter
+			owner = { part_of_sphere = yes }
+			owner = { has_country_modifier = western_influences }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = {
+			factor = 0.5
+			owner = { has_country_flag = supported_boxers }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { civilization_progress = 0.8 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { civilization_progress = 0.85 }
+		}
+		modifier = {
+			factor = 0.7
+			owner = { civilization_progress = 0.9 }
+		}
+		modifier = {
+			factor = 0.7
+			owner = { civilization_progress = 0.95 }
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				has_province_modifier = western_presence
+				has_province_modifier = foreign_smugglers
+				has_province_modifier = foreign_trading_post
+				has_province_modifier = local_opium_habit
+				has_province_modifier = european_military_mission
+				has_province_modifier = extraterritoriality_granted
+				has_province_modifier = legation_quarter
+			}
+		}
+	}
+	
+	option = {
+		name = "Unfortunate news."
+		state_scope = {
+			any_owned = {
+				limit = { is_core = CHI }
+				add_province_modifier = {
+					name = peasant_revolt
+					duration = 730
+				}
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				militancy = 5
+				ideology = {
+					factor = 0.2
+					value = reactionary
+				}
+			}
+		}
+	}
+}
+
 country_event = {
 	id = 1645091
 	title = "The Mandate of Heaven"
@@ -1236,12 +1337,6 @@ country_event = {
 		FROM = { country_event = 1316083 }
 		prestige = -5
 		treasury = -200000
-		capital_scope = {
-			add_province_modifier = {
-				name = legation_quarter
-				duration = -1
-			}
-		}
 		remove_country_modifier = uncivilized_isolationism
 		add_country_modifier = {
 			name = "western_influences"
@@ -1851,12 +1946,6 @@ country_event = {
 		any_owned = {
 			limit = { is_core = FROM }
 			secede_province = FROM
-		}
-		capital_scope = {
-			add_province_modifier = {
-				name = legation_quarter
-				duration = -1
-			}
 		}
 		random_owned = {
 			limit = {

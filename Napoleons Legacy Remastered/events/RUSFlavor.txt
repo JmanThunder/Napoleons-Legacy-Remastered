@@ -306,7 +306,6 @@ country_event = {
 			war = no
 			any_owned_province = {
 				region = USA_1
-				is_colonial = yes ###minimod change###
 			}
 		}
 		NOT = {
@@ -1400,18 +1399,7 @@ country_event = {
 				secede_province = THIS
 			}
 		}
-		ai_chance = {
-			factor = 85
-		}		
 	}
-	
-	option = {
-		name = "It's not worth it."
-		ai_chance = {
-			factor = 15
-		}
-	}	
-	
 }
 
 country_event = {

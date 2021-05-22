@@ -1,8 +1,9 @@
 capital = 425
 primary_culture = french
 culture = french_canadian
+culture = picard
 culture = occitan
-culture = wallonian
+culture = breton
 religion = catholic
 government = hms_government
 plurality = 25
@@ -87,6 +88,14 @@ upper_house = {
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
+}
+
+set_country_flag = existing_country
+decision = literacy_FRA
+
+govt_flag = {
+	government = hms_government
+	flag = presidential_dictatorship
 }
 
 schools = culture_tech_school

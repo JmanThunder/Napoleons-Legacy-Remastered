@@ -4,7 +4,7 @@ culture = south_german
 religion = protestant
 government = absolute_monarchy
 plurality = 0.15
-nationalvalue = nv_order
+nationalvalue = nv_might
 literacy = 0.87
 civilized = yes
 
@@ -27,6 +27,12 @@ unemployment_subsidies = low_subsidies
 pensions = good_pensions 
 school_reforms = no_schools
 
+govt_flag = 
+{
+	government = hms_government
+	flag = presidential_dictatorship
+}
+
 ruling_party = GER_conservative
 upper_house = {
 	fascist = 0
@@ -40,6 +46,9 @@ upper_house = {
 
 schools = army_tech_school
 
+1861.1.1 = {
+	oob = "/1861/GER_oob.txt"
+}
 1861.1.1 = {
 # Technologies
 

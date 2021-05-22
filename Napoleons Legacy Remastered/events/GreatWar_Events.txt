@@ -2532,17 +2532,6 @@ country_event = {
 			682 = { add_core = POL }
 		}
 		
-		#add Lithuanian cores is LIT has a truce
-		random_country = {
-			limit = {
-				tag = LIT
-				exists = yes
-				truce_with = THIS
-			}
-			698 = { add_core = LIT }
-			697 = { add_core = LIT }
-		}		
-		
 		random_country = {
 			limit = {
 				tag = PLC
@@ -3018,7 +3007,6 @@ country_event = {
 				}
 			}
 		}
-		
 		random_country = {
 			limit = {
 				tag = TKG
@@ -3042,25 +3030,6 @@ country_event = {
 				}
 			}
 		}
-		
-		random_country = {
-			limit = {
-				tag = PER
-				exists = yes
-				truce_with = THIS
-			}
-			RUS = {
-				all_core = {
-					limit = { is_core = PER }
-					remove_core = THIS
-				}
-				any_owned = {
-					limit = { province_id = 1107 }
-					remove_core = THIS
-					add_core = PER
-				}
-			}
-		}		
 
 		#remove cores from Congress Poland provinces if any owned
 		random_owned = {
@@ -3108,23 +3077,6 @@ country_event = {
 			}
 			add_core = GER
 		}
-
-		any_owned = {
-			limit = {
-				OR = {
-					province_id = 708
-				}
-				NOT = { is_core = GER }
-				owner = {
-					OR = {
-						truce_with = PRU
-						truce_with = NGF
-						truce_with = GER
-					}
-				}
-			}
-			add_core = GER
-		}		
 
 		#Remove cores from the Baltic States
 		any_owned = {
@@ -3275,7 +3227,7 @@ country_event = {
 					is_colonial = no
 				}
 			}
-			set_country_flag = civilize_after_release
+			civilized = yes
 			country_event = 96061
 		}
 		
@@ -3290,7 +3242,7 @@ country_event = {
 					is_colonial = no
 				}
 			}
-			set_country_flag = civilize_after_release
+			civilized = yes
 			country_event = 96061
 		}
 		
@@ -3305,7 +3257,7 @@ country_event = {
 					is_colonial = no
 				}
 			}
-			set_country_flag = civilize_after_release
+			civilized = yes
 			country_event = 96061
 		}
 
@@ -3415,7 +3367,7 @@ country_event = {
 				exists = no
 				any_core = { owned_by = THIS }
 			}
-			set_country_flag = civilize_after_release
+			civilized = yes
 			country_event = 96060
 		}
 		
@@ -4276,7 +4228,7 @@ country_event = {
 				exists = no
 				civilized = no
 			}
-			set_country_flag = civilize_after_release
+			civilized = yes
 		}
 		any_country = {
 			limit = {
@@ -4992,48 +4944,19 @@ country_event = {
 		#Add Belgian cores, if Belgium/Flanders is in a truce
 		random_country = {
 			limit = {
-				tag = FLA
+				OR = {
+					tag = BEL
+					tag = FLA
+				}
 				truce_with = THIS
 			}
 			399 = {
+				add_core = BEL
 				add_core = FLA
 			}
 			400 = {
-				add_core = FLA
-			}
-		}
-
-		random_country = {
-			limit = {
-				tag = BEL
-				truce_with = THIS
-			}
-			399 = {
-				add_core = BEL
-				add_core = WLL
-			}
-			400 = {
 				add_core = BEL
 				add_core = FLA
-			}
-			401 = {
-				add_core = BEL
-			}
-			404 = {
-				add_core = BEL
-			}
-		}	
-
-		random_country = {
-			limit = {
-				tag = WLL
-				truce_with = THIS
-			}
-			399 = {
-				add_core = WLL
-			}
-			404 = {
-				add_core = WLL
 			}
 		}
 
@@ -6322,7 +6245,7 @@ country_event = {
 			}
 			random = {
 				chance = 30
-				set_country_flag = civilize_after_release
+				civilized = yes
 				country_event = 96060
 			}
 		}
@@ -6570,7 +6493,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA96031" #Great
-		set_country_flag = civilize_after_release
+		civilized = yes
 		FROM = {
 			any_owned = {
 				limit = {

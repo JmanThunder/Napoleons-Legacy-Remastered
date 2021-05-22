@@ -1,7 +1,5 @@
-owner = SAT
-controller = SAT
-add_core = SAT
+owner = RYU
+controller = RYU
 add_core = RYU
-trade_goods = fish
+trade_goods = iron
 life_rating = 35
-terrain = small_island

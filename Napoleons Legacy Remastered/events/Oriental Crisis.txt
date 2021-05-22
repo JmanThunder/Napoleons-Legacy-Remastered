@@ -746,14 +746,13 @@ country_event = {
 		}
 		casus_belli = {	
 			target = EGY
-			type = liberate_country
+			type = cut_down_to_size
 			months = 12
 		}
 		war = {
 			target = EGY
 			attacker_goal = {
-				casus_belli = liberate_country
-				country = TUR
+				casus_belli = cut_down_to_size
 			}
 		}
 		TUR = { country_event = 90086 }
@@ -873,13 +872,8 @@ country_event = {
 		any_owned_province = { is_core = TUR }
 		OR = {
 			1745 = {
-				controller = {
-					war_with = THIS
-					OR = {
-						has_country_flag = oriental_crisis_support_OE
-						tag = TUR
-					}
-				}
+				NOT = { controlled_by = THIS }
+				NOT = { controlled_by = REB }
 			}
 			NOT = {
 				any_owned_province = {

@@ -6,7 +6,7 @@ culture = maghrebi
 religion = sunni
 government = absolute_monarchy
 plurality = 0.2
-nationalvalue = nv_order
+nationalvalue = nv_might
 literacy = 0.6
 civilized = yes
 

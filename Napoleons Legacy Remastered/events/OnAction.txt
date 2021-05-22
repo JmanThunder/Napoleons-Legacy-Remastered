@@ -255,19 +255,6 @@ country_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = "Look the other way"
-		relation = { who = FROM value = -20 }
-		prestige = -5
-		any_pop = {
-			limit = {
-				strata = rich
-			}
-			militancy = 2
-		}
-	}	
-	
 }
 
 # Nation that owns your debt goes bankrupt in definace of our gunboats

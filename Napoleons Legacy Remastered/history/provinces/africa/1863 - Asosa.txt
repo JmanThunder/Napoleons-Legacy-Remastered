@@ -1,6 +1,5 @@
-owner = GON
-controller = GON
-add_core = SHW
+owner = KAF
+controller = KAF
 add_core = KAF
 add_core = ETH
 trade_goods = cattle

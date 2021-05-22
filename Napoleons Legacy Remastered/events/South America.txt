@@ -986,7 +986,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "For the glory of $COUNTRY$!"
+		name = "For the glory of Chile!"
 		prestige = 1
 		random_owned = {
 			limit = {
@@ -1186,7 +1186,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "For the glory of $COUNTRY$!"
+		name = "For the glory of Argentina!"
 		prestige = 1
 		random_owned = {
 			limit = {

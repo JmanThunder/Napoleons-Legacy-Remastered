@@ -363,39 +363,28 @@ political_decisions = {
 		}
 		
 		allow = {
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+			ITA = {
+				exists = yes
+				NOT = { in_sphere = FRA }
+			}
 			NOT = {
 				has_country_modifier = punitive_effects
 				has_country_modifier = no_more_war
-			}	
-			OR = {
-				AND = {
-					OR = {
-						war_policy = jingoism
-						war_policy = pro_military
-					}
-					ITA = {
-						exists = yes
-						NOT = { in_sphere = FRA }
-					}	
-				}
-				SAR_466 = {
-					owned_by = THIS
-				}
 			}
 		}
 		
 		effect = {
 			set_country_flag = claimed_savoy
-			badboy = 4
+			badboy = 3
 			465 = { add_core = FRA }
 			466 = { add_core = FRA }
 			472 = { add_core = FRA }
-			721 = { add_core = FRA }
 			random_country = {
-				limit = {
-					owns = 465
-					NOT = { tag = FRA }
-				}
+				limit = { owns = 465 }
 				leave_alliance = THIS
 				relation = { who = THIS value = -100 }
 			}
@@ -439,26 +428,26 @@ political_decisions = {
 			OCC = { exists = no }
 			NOT = {
 				has_country_flag = enacted_french_schooling
-				education = none
+				school_reforms = no_schools
 			}
 		}
 		
 		allow = {
 			war = no
 			invention = biased_multiculturalism
-			invention = social_darwinism		
+			invention = social_darwinism
 		}
 		
 		effect = {
 			set_country_flag = enacted_french_schooling
 			remove_accepted_culture = occitan
-			remove_accepted_culture = wallonian
-			any_owned_province = {
+			remove_accepted_culture = picard
+			any_owned = {
 				limit = {
 					OR = {
 						is_core = OCC
 						is_core = BRT
-						is_core = WLL
+						culture = picard
 					}
 				}
 				add_province_modifier = {
@@ -466,40 +455,12 @@ political_decisions = {
 					duration = -1
 				}
 			}
-			OCC = { 
-				all_core = { 
-					remove_core = OCC 
-				} 
-			}
-			random_owned = {
-				limit = {
-					WLL = { exists = no }
-					BEL = { exists = no }
-					BEL_394 = {
-						owned_by = FRA
-					}
-				}
-				WLL = {
-					all_core = {
-						limit = {
-							NOT = { culture = wallonian }
-						}
-						remove_core = WLL
-					}
-				}
-			}
+			OCC = { all_core = { remove_core = OCC } }
 			random_owned = {
 				limit = {
 					BRT = { exists = no }
 				}
-				BRT = {
-					all_core = {
-						limit = {
-							NOT = { culture = breton }
-						}
-						remove_core = BRT
-					}
-				}
+				BRT = { all_core = { remove_core = BRT } }
 			}
 		}
 	}

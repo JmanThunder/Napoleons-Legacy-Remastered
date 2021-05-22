@@ -1145,7 +1145,7 @@ add_to_sphere = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 1.6
+	badboy_factor = 2
 	prestige_factor = 2
 	peace_cost_factor = 50
 	penalty_factor = 1
@@ -1554,7 +1554,7 @@ free_peoples = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 0.8
+	badboy_factor = 1.5
 	prestige_factor = 2
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -1639,11 +1639,6 @@ free_peoples = {
 			FROM = { in_sphere = THIS }
 			FROM = { relation = { who = THIS value = 100 } }
 			FROM = { involved_in_crisis = yes }
-			AND = {
-				tag = EGY
-				THIS = { has_country_flag = oriental_crisis_support_OE }
-				FROM = { tag = TUR }
-			}
 			THIS = { ai = no }
 		}
 		any_owned_province = {
@@ -1893,7 +1888,7 @@ liberate_country = {
 	
 	construction_speed = 0.25
 
-	badboy_factor = 2.0
+	badboy_factor = 2.2
 	prestige_factor = 2
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -1948,7 +1943,7 @@ liberate_country = {
 			FROM = { involved_in_crisis = yes }
 		}
 		OR = {
-			THIS = { ai = no }
+			THIS = { ai = yes }
 			FROM = { NOT = { any_core = { is_core = THIS } } }
 			FROM = { involved_in_crisis = yes }
 		}
@@ -2078,11 +2073,6 @@ liberate_country = {
 			FROM = { in_sphere = THIS }
 			FROM = { relation = { who = THIS value = 100 } }
 			FROM = { involved_in_crisis = yes }
-			AND = {
-				tag = EGY
-				THIS = { has_country_flag = oriental_crisis_support_OE }
-				FROM = { tag = TUR }
-			}
 			THIS = { ai = no }
 		}
 	}
@@ -2120,7 +2110,7 @@ free_allied_cores = {
 	
 	construction_speed = 0.75
 
-	badboy_factor = 0.8
+	badboy_factor = 1.0
 	prestige_factor = 2
 	peace_cost_factor = 0.8
 	penalty_factor = 1
@@ -2788,7 +2778,7 @@ cut_down_to_size = {
 
 	badboy_factor = 1.3
 	prestige_factor = 1
-	peace_cost_factor = 15
+	peace_cost_factor = 25
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -4105,7 +4095,7 @@ conquest = {
 			}
 			AND = {
 				THIS = { government = fascist_dictatorship }
-				NOT = { number_of_states = 6 }
+				NOT = { number_of_states = 4 }
 			}
 		}
 		is_vassal = no
@@ -4698,15 +4688,13 @@ cut_down_to_size_boxer = {
 	crisis = no
 	
 	can_use = {
-		tag = CHI
-		civilized = no
-		has_country_flag = boxers_appeared
-		NOT = { has_country_flag = boxers_disbanded }
+		NOT = { is_our_vassal = THIS }
+		is_disarmed = no
 	}
 	
 	badboy_factor = 1.1
-	prestige_factor = 5
-	peace_cost_factor = 12.5
+	prestige_factor = 1
+	peace_cost_factor = 25
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -4724,7 +4712,6 @@ cut_down_to_size_boxer = {
 	war_name = WAR_BOXER_NAME
 	
 	on_add = {
-		set_country_flag = intervened_boxer_war
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
@@ -4733,8 +4720,28 @@ cut_down_to_size_boxer = {
 	}
 	
 	on_po_accepted = {
-		THIS = { clr_country_flag = intervened_boxer_war }
-		country_event = 99015
+		random_owned = {
+			limit = {
+				owner = {
+					civilized = no
+					is_culture_group = east_asian
+					OR = {
+						owns = 1481
+						owns = 1496
+						owns = 1498
+						owns = 1538
+						owns = 1566
+						owns = 1569
+						owns = 1606
+					}
+				}
+				THIS = {
+					civilized = yes
+					NOT = { is_culture_group = east_asian }
+				}
+			}
+			owner = { country_event = 1316089 }
+		}
 	}
 }
 
@@ -4765,7 +4772,6 @@ make_puppet = {
 		NOT = {
 			is_our_vassal = THIS
 			has_country_modifier = neutrality
-			total_pops = 5000000
 		}
 		is_vassal = no
 		is_greater_power = no

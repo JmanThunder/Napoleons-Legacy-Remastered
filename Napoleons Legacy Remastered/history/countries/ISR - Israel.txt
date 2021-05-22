@@ -1,4 +1,4 @@
-capital = 919
+capital = 917
 primary_culture = ashkenazi
 culture = sephardic
 religion = jewish
@@ -82,6 +82,9 @@ commerce_raiders = yes
 precision_work = yes
 
 1861.1.1 = {
+	oob = "/1861/ISR_oob.txt"
+}
+1861.1.1 = {
 # Technologies
 	post_napoleonic_thought = 1
 	strategic_mobility = 1
@@ -139,6 +142,7 @@ precision_work = yes
 	early_railroad = 1
 
 #Inventions
+	commerce_raiders = yes
 	ironclads = yes
 	monitors = yes
 	precision_work = yes

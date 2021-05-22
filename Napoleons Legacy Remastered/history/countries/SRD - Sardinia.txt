@@ -36,3 +36,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+oob = "SRD_oob.txt"
+1861.1.1 = {
+	oob = "/1861/SRD_oob.txt"
+}

@@ -1,4 +1,4 @@
-name = "Ragamuffin War"
+name = "War of the Farrapos"
 
 1835.10.2 = {
 	add_attacker = BRZ
@@ -14,12 +14,7 @@ name = "Ragamuffin War"
 		actor = BRZ
 		receiver = RGS
 	}
-	war_goal = {
-		casus_belli = acquire_state
-		actor = RGS
-		receiver = BRZ
-		state_province_id = 2461
-	}
+
 }
 
 1836.4.21 = {

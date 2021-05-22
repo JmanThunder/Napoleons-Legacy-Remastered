@@ -71,7 +71,10 @@ political_decisions = {
 			1424 = { add_core = KLM }
 			1426 = { add_core = KLM }
 			1427 = { add_core = KLM }
-
+			
+			#Luang Praband
+			1363 = { add_core = LUA }
+			
 			#Maluku
 			1447 = { add_core = MAL }
 			1448 = { add_core = MAL }
@@ -109,8 +112,8 @@ political_decisions = {
 			1556 = { add_core = TIB }
 			1557 = { add_core = TIB }
 			1558 = { add_core = TIB }
+			1582 = { add_core = TIB }
 			1586 = { add_core = TIB }
-			1226 = { add_core = TIB }
 			
 			#Tonga
 			2540 = { add_core = TGA }

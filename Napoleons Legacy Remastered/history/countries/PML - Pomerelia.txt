@@ -1,6 +1,5 @@
 capital = 694
 primary_culture = polish
-culture = western_slavic
 religion = catholic
 government = hms_government
 plurality = 0.2

@@ -426,6 +426,7 @@ country_event = {
 	
 	trigger = {
 		tag = PNJ
+		war = no
 		neighbour = ENG
 		has_country_flag = singh
 		NOT = { has_leader = "Ranjit Singh" }
@@ -536,6 +537,30 @@ country_event = {
 		}
 		any_country = {
 			limit = {
+				OR = {
+					tag = MAH
+					tag = MUG
+					tag = BNG
+				}
+				NOT = { has_global_flag = indian_call_to_union }
+				any_core = { owned_by = THIS }
+				exists = no
+				civilized = no
+			}
+			civilized = yes
+		}
+		any_country = {
+			limit = {
+				is_culture_group = south_asian
+				has_global_flag = indian_call_to_union
+				any_core = { owned_by = THIS }
+				exists = no
+				civilized = no
+			}
+			civilized = yes
+		}
+		any_country = {
+			limit = {
 				any_core = { owned_by = THIS }
 				exists = no
 				is_cultural_union = no
@@ -596,23 +621,7 @@ country_event = {
 			}
 			end_war = THIS
 		}
-		random_owned = {
-			limit = {
-				owner = { civilized = yes }
-			}
-			FROM = {
-				any_owned = {
-					limit = { is_core = THIS }
-					secede_province = THIS
-				}
-			}
-		}
-		random_owned = {
-			limit = {
-				owner = { civilized = no }
-			}
-			FROM = { release = THIS }
-		}
+		FROM = { release = THIS }
 		any_pop = {
 			limit = { is_culture_group = south_asian }
 			militancy = -4
@@ -668,29 +677,6 @@ country_event = {
 				who = THIS
 				value = -200
 			}
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					civilized = no
-					has_global_flag = indian_call_to_union
-				}
-			}
-			owner = { set_country_flag = civilize_after_release }
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					civilized = no
-					NOT = { has_global_flag = indian_call_to_union }
-					OR = {
-						tag = MAH
-						tag = MUG
-						tag = BNG
-					}
-				}
-			}
-			owner = { set_country_flag = civilize_after_release }
 		}
 	}
 }

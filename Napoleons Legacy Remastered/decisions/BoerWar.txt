@@ -23,7 +23,6 @@ political_decisions = {
 			}
 			small_arms = 50
 			regular_clothes = 50
-			horses = 20
 			add_country_modifier = {
 				name = trek_boers
 				duration = 730
@@ -43,11 +42,6 @@ political_decisions = {
 					value = reactionary
 					factor = 0.30
 				}
-			}
-			any_pop = {
-				limit = { is_culture_group = southern_african }
-				militancy = -4
-				reduce_pop = 0.90
 			}
 			random_owned = {
 				limit = {
@@ -78,20 +72,13 @@ political_decisions = {
 		allow = {
 			TRN = {
 				war = no
-				total_amount_of_divisions = 1
 				NOT = { has_country_modifier = trek_boers }
 			}
 		}
 		effect = {
 			set_country_flag = had_sand_river_convention
 			release_vassal = TRN
-			TRN = {
-				all_core = {
-					remove_core = THIS
-					remove_core = SAF
-				}
-				country_event = 98230
-			}
+			TRN = { country_event = 98230 }
 		}
 	}
 	
@@ -107,7 +94,6 @@ political_decisions = {
 		allow = {
 			ORA = {
 				war = no
-				total_amount_of_divisions = 1
 				NOT = { has_country_modifier = trek_boers }
 			}
 		}
@@ -115,13 +101,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = had_orange_river_convention
 			release_vassal = ORA
-			ORA = {
-				all_core = {
-					remove_core = THIS
-					remove_core = SAF
-				}
-				country_event = 98231
-			}
+			ORA = { country_event = 98231 }
 		}
 	}
 	
@@ -285,6 +265,7 @@ political_decisions = {
 				limit = { is_primary_culture = yes }
 				militancy = -4
 			}
+
 			any_country = {
 				limit = {
 					OR = {
@@ -334,7 +315,6 @@ political_decisions = {
 					remove_core = SAF
 				}
 				primary_culture = THIS
-				add_accepted_culture = boer
 			}
 			any_pop = {
 				limit = {
@@ -594,28 +574,6 @@ political_decisions = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-	}
-	
-	south_africa_1861_start = {
-		potential = {
-			tag = ENG
-			always = no
-		}
-		allow = {
-			owns = 2087
-		}
-		effect = {
-			ORA = {
-				all_core = { remove_core = SAF }
-			}
-			TRN = {
-				all_core = { remove_core = SAF }
-			}
-			SAF = {
-				primary_culture = british
-				add_accepted_culture = boer
-			}
 		}
 	}
 }

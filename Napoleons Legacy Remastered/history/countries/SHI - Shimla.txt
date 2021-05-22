@@ -5,7 +5,7 @@ culture = marathi
 religion = hindu
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.02
 
 ruling_party = SHI_conservative
@@ -19,6 +19,9 @@ upper_house = {
 	communist = 0
 }
 
+1861.1.1 = {
+	oob = "/1861/SHI_oob.txt"
+}
 
 
 slavery = no_slavery

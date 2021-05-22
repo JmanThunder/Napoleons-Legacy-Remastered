@@ -88,8 +88,6 @@ political_decisions = {
 						tag = AUS
 						tag = DNB
 						tag = BAN
-						tag = SWI
-						tag = SIE
 					}
 					OR = {
 						is_vassal = no
@@ -139,6 +137,10 @@ political_decisions = {
 							owned_by = THIS
 							owner = {
 								in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
 								war = no
 								ai = yes
 								is_greater_power = no
@@ -159,7 +161,6 @@ political_decisions = {
 						tag = WUR
 						tag = BAD
 						tag = BAV
-						tag = HOH
 					}
 					in_sphere = THIS
 				}
@@ -264,8 +265,6 @@ political_decisions = {
 						tag = KUK
 						tag = AUS
 						tag = BAN
-						tag = SIE
-						tag = SWI
 					}
 					OR = {
 						is_vassal = no
@@ -524,8 +523,6 @@ political_decisions = {
 					NOT = { tag = DNB }
 					NOT = { tag = PRU }
 					NOT = { tag = BAN }
-					NOT = { tag = SWI }
-					NOT = { tag = SIE }
 					NOT = { has_country_flag = post_colonial_country }
 					OR = {
 						all_core = { owned_by = THIS }
@@ -567,8 +564,6 @@ political_decisions = {
 						tag = AUS
 						tag = DNB
 						tag = BAN
-						tag = SWI
-						tag = SIE
 					}
 					OR = {
 						is_vassal = no
@@ -616,6 +611,17 @@ political_decisions = {
 					}
 				}
 			}
+			NOT = {
+				any_owned_province = {
+					NOT = { 
+						OR = {
+							is_core = AUS
+							is_core = GER
+							is_colonial = yes
+						}
+					}
+				}
+			}
 		}
 		
 		effect = {
@@ -633,8 +639,6 @@ political_decisions = {
 					exists = no
 					NOT = { tag = PRU }
 					NOT = { tag = BAN }
-					NOT = { tag = SWI }
-					NOT = { tag = SIE }
 					NOT = { has_country_flag = post_colonial_country }
 					OR = {
 						all_core = { owned_by = THIS }
@@ -819,6 +823,7 @@ political_decisions = {
 		}
 		
 		allow = {
+			has_global_flag = indian_call_to_union
 			prestige = 45
 			nationalism_n_imperialism = 1
 			war = no
@@ -1125,8 +1130,6 @@ political_decisions = {
 					NOT = { tag = KUK }
 					NOT = { tag = DNB }
 					NOT = { tag = BAN }
-					NOT = { tag = SWI }
-					NOT = { tag = SIE }
 					NOT = { has_country_flag = post_colonial_country }
 					NOT = {
 						AND = {

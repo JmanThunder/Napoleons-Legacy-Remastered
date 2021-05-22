@@ -239,7 +239,7 @@ country_event = {
 			any_pop = {
 				scaled_militancy = {
 					ideology = liberal
-					factor = 8
+					factor = 9
 				}
 			}
 		}
@@ -515,7 +515,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 15
+		months = 12
 		modifier = {
 			factor = 0.9
 			political_reform_want = 0.02
@@ -662,7 +662,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 22
+		months = 20
 		modifier = {
 			factor = 1.2
 			has_country_modifier = anti_jacobin_tract
@@ -828,7 +828,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 24
+		months = 20
 		modifier = {
 			factor = 1.2
 			has_country_modifier = anti_jacobin_tract
@@ -1016,7 +1016,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 24
+		months = 20
 		modifier = {
 			factor = 1.2
 			has_country_modifier = anti_jacobin_tract
@@ -1212,7 +1212,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 24
+		months = 20
 		modifier = {
 			factor = 1.2
 			has_country_modifier = anti_jacobin_tract
@@ -1395,7 +1395,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 36
+		months = 30
 		modifier = {
 			factor = 1.2
 			has_country_modifier = anti_jacobin_tract
@@ -1631,7 +1631,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 50
+		months = 60
 		modifier = {
 			factor = 1.2
 			has_country_modifier = anti_jacobin_tract
@@ -1728,7 +1728,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 24
+		months = 20
 		modifier = {
 			factor = 1.2
 			has_country_modifier = anti_jacobin_tract
@@ -1919,7 +1919,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 40
+		months = 30
 		modifier = {
 			factor = 0.5
 			NOT = { controlled_by = THIS }
@@ -2156,7 +2156,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 44
+		months = 40
 		modifier = {
 			factor = 0.8
 			owner = { has_country_modifier = anti_jacobin_tract }
@@ -2278,7 +2278,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 44
+		months = 40
 		modifier = {
 			factor = 1.2
 			owner = { has_country_modifier = anti_jacobin_tract }
@@ -2485,7 +2485,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 18
+		months = 12
 		modifier = {
 			factor = 1.2
 			has_country_modifier = anti_jacobin_tract
@@ -2797,7 +2797,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 28
+		months = 30
 		modifier = {
 			factor = 0.5
 			any_owned_province = {
@@ -2920,7 +2920,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 28
+		months = 30
 		modifier = {
 			factor = 1.2
 			owner = { has_country_modifier = anti_jacobin_tract }
@@ -3128,7 +3128,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 26
+		months = 30
 		modifier = {
 			factor = 1.5
 			owner = { num_of_revolts = 1 }
@@ -3435,14 +3435,13 @@ country_event = {
 			}
 		}	
 		NOT = {
-			HUN = { involved_in_crisis = yes }
 			exists = HUN
 			has_global_flag = hungarian_revolution_occurred
 		}
 	}
 
 	mean_time_to_happen = {
-		months = 3
+		months = 1
 	}
 
 	immediate = {
@@ -3458,10 +3457,7 @@ country_event = {
 		any_owned = {
 			limit = {
 				is_core = HUN
-				NOT = { 
-					is_core = CRO
-					is_core = AUS
-				}
+				NOT = { is_core = CRO }
 			}
 			secede_province = HUN
 		}
@@ -4346,7 +4342,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 38
+		months = 36
 		modifier = {
 			factor = 1.2
 			has_country_modifier = anti_jacobin_tract
@@ -4772,7 +4768,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 125
+		months = 120
 		modifier = {
 			factor = 0.2
 			has_country_flag = liberal_revolution_in_progress
@@ -4862,143 +4858,5 @@ country_event = {
 				militancy = 4
 			}
 		}
-	}
-}
-
-country_event = {
-	title = "Return to a Conservative Zeitgeist"
-	desc = "With the age of revolution coming to a close, the fiery demagoguery of liberalism fades with it. Now is a time of the absolute and the devout, and in a corner of Europe, the theory of the Aryan race is incubated."
-	picture = "Anti-Jacobin"
-	id = 1033111
-
-	trigger = {
-        capital_scope = { continent = europe }
-		has_country_flag = had_liberal_revolution
-		year = 1865
-		NOT = {
-			has_country_flag = conservative_zeitgeist
-			tag = GER
-			tag = PRU
-			tag = NGF
-			vote_franschise = universal_weighted_voting
-			vote_franschise = universal_voting
-		}
-	}
-	mean_time_to_happen = {
-		months = 12
-
-		modifier = {
-			factor = 0.75 #increase likelihood to happen
-			year = 1868
-		}
-
-		modifier = {
-			factor = 0.95 #increase likelihood to happen
-			year = 1870
-		}
-	}
-
-	option = {
-		name = "Such foul machinations will not burden this land again"
-		aristocrats = {
-			ideology = {
-				value = reactionary
-				factor = 0.4
-			}
-			dominant_issue = {
-				value = landed_voting
-				factor = 0.25
-			}
-		}
-		any_pop = {
-			ideology = {
-				value = reactionary
-				factor = 0.05
-			}
-			ideology = {
-				value = conservative
-				factor = 0.10
-			}
-		}
-		upper_house = {
-			ideology = reactionary
-			value = 0.1
-		}
-		upper_house = {
-			ideology = conservative
-			value = 0.25
-		}
-		set_country_flag = conservative_zeitgeist	
-	}
-}
-
-country_event = {
-	title = "Return to a Conservative Zeitgeist"
-	desc = "With the age of revolution coming to a close, the firey demagoguery of liberalism fades with it. Now is a time of the absolute and the devout, and in our beloved Germany, the theory of the Aryan race is incubated. Prussian values live on."
-	picture = "Anti-Jacobin"
-	id = 103321
-
-	trigger = {
-        capital_scope = { continent = europe }
-		has_country_flag = had_liberal_revolution
-		year = 1865
-        OR = {
-            tag = GER
-			tag = NGF
-            tag = PRU
-	    }
-		NOT = {
-			has_country_flag = conservative_zeitgeist
-			vote_franschise = universal_weighted_voting
-			vote_franschise = universal_voting
-		}
-	}
-	mean_time_to_happen = {
-		months = 12
-
-		modifier = {
-			factor = 0.75 #increase likelihood to happen
-			year = 1868
-		}
-
-
-		modifier = {
-			factor = 0.95 #increase likelihood to happen
-			year = 1870
-		}
-	}
-
-	option = {
-		name = "We will crush our enemies like roaches"
-		aristocrats = {
-			ideology = {
-				value = reactionary
-				factor = 0.6
-			}
-			dominant_issue = {
-				value = landed_voting
-				factor = 0.2
-			}
-		}
-		any_pop = {
-            limit = { culture = north_german }
-			ideology = {
-				value = reactionary
-				factor = 0.10
-			}
-			ideology = {
-				value = conservative
-				factor = 0.15
-			}
-		}
-		upper_house = {
-			ideology = conservative
-			value = 0.25
-		}		
-		upper_house = {
-			ideology = reactionary
-			value = 0.15
-		}
-		set_country_flag = conservative_zeitgeist	
 	}
 }

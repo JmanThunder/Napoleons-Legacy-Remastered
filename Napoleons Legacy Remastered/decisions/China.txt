@@ -51,6 +51,56 @@ political_decisions = {
 		}
 	}
 	
+	support_boxers = {
+		potential = {
+			tag = CHI
+			NOT = { has_country_flag = supported_boxers }
+			government = absolute_monarchy
+			civilized = no
+			civilization_progress = 0.75
+			part_of_sphere = yes
+		}
+		allow = {
+			war = no
+			part_of_sphere = yes
+		}
+		effect = {
+			set_country_flag = supported_boxers
+			prestige = 10
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				ideology = {
+					value = reactionary
+					factor = 0.25
+				}
+				militancy = -5
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						has_province_modifier = western_presence
+						has_province_modifier = foreign_smugglers
+						has_province_modifier = foreign_trading_post
+						has_province_modifier = local_opium_habit
+						has_province_modifier = european_military_mission
+						has_province_modifier = extraterritoriality_granted
+						has_province_modifier = legation_quarter
+					}
+				}
+				add_province_modifier = {
+					name = peasant_revolt
+					duration = 730
+				}
+			}
+		}
+	}
+	
 	abandon_neutral_faction = {
 		picture = abandon_faction
 		potential = {
@@ -1136,7 +1186,6 @@ political_decisions = {
 	unequal_treaty = {
 		potential = {
 			any_owned_province = { continent = asia }
-			NOT = { has_country_flag = intervened_boxer_war }
 			is_greater_power = yes
 			NOT = {
 				AND = {

@@ -5,7 +5,7 @@ culture = nanfaren
 religion = mahayana
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.04
 non_state_culture_literacy = 0.02
 
@@ -37,7 +37,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 
 # Starting Consciousness
@@ -48,9 +48,9 @@ foreign_weapons = yes_foreign_weapons
 # Technologies
 flintlock_rifles = 1
 
-
+oob = "GXI_oob.txt"
 1861.1.1 = {
-	
+	oob = "/1861/GXI_oob.txt"
 	literacy = 0.07
 	non_state_culture_literacy = 0.04
 

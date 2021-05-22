@@ -3,7 +3,7 @@ primary_culture = nanfaren
 religion = mahayana
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.04
 non_state_culture_literacy = 0.01
 
@@ -35,12 +35,16 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
 
+oob = "YNN_oob.txt"
+1861.1.1 = {
+	oob = "/1861/YNN_oob.txt"
+}
 1861.1.1 = {
 
 foreign_weapons = yes_foreign_weapons

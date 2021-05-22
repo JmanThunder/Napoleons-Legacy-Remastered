@@ -1039,7 +1039,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 120
 		modifier = {
 			factor = 0.75
 			owner = { nationalism_n_imperialism = 1 }
@@ -1230,7 +1230,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 120
+		months = 180
 		modifier = {
 			factor = 0.75
 			owner = { nationalism_n_imperialism = 1 }
@@ -1414,6 +1414,7 @@ province_event = {
 	
 	option = {
 		name = "This will only cause more conflict."
+		owner = { badboy = -1 }
 		state_scope = {
 			any_owned = {
 				limit = {
@@ -1715,6 +1716,7 @@ province_event = {
 	
 	option = {
 		name = "Abandon assimilation in $STATENAME$."
+		owner = { badboy = -1 }
 		state_scope = {
 			any_owned = {
 				limit = {

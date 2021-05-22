@@ -6,7 +6,7 @@ culture = ugrian
 religion = orthodox
 government = absolute_monarchy
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_might
 literacy = 0.10
 non_state_culture_literacy = 0.07
 civilized = yes
@@ -45,6 +45,9 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
+decision = literacy_RUS
 
 # Technologies
 post_napoleonic_thought = 1

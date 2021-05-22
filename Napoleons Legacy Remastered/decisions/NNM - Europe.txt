@@ -20,10 +20,6 @@ political_decisions = {
 			409 = { add_core = ALS }
 			410 = { add_core = ALS }
 			
-			#Genoa
-			725 = { add_core = GEN }
-			724 = { add_core = GEN }
-			
 			#Asturias
 			475 = { add_core = ATR }
 			
@@ -40,7 +36,6 @@ political_decisions = {
 			AUS_625 = { add_core = AUS }
 			AUS_626 = { add_core = AUS }
 			689 = { add_core = AUS }
-			688 = { add_core = AUS }
 			2584 = {
 				add_core = AUS
 				add_core = BOH
@@ -50,9 +45,6 @@ political_decisions = {
 			652 = { add_core = BAN }
 			653 = { add_core = BAN }
 			792 = { add_core = BAN }
-			
-			#Slovenia
-			736 = { add_core = SLO }
 			
 			#Basqueland
 			460 = { add_core = BSQ }
@@ -67,21 +59,13 @@ political_decisions = {
 			423 = { add_core = BRT }
 			
 			#Bukovina
-			662 = { add_core = GLM }
-			663 = { add_core = GLM }
-			
-			#Hungary
-			624 = { add_core = HUN }
-			
-			#Catalonia
-			504 = { add_core = CAT }
-			503 = { add_core = CAT }
-			505 = { add_core = CAT }
+			662 = { add_core = BKV }
+			663 = { add_core = BKV }
 			
 			#Corsica
 			473 = { add_core = CRS }
 			
-			#Czechoslovakia (no longer a union)
+			#Czechoslovakia (no longer a union}
 			CZH = {
 				all_core = { remove_core = CZH }
 			}
@@ -114,9 +98,6 @@ political_decisions = {
 			#Iceland
 			252 = { remove_core = DEN }
 			
-			#Tuscany
-			746 = { add_core = TUS }
-			
 			#Leon
 			477 = { add_core = LEO }
 			482 = { add_core = LEO }
@@ -138,10 +119,10 @@ political_decisions = {
 			854 = { add_core = MLT }
 			
 			#Occitania
-			447 = { add_core = OCC }
 			448 = { add_core = OCC }
 			449 = { add_core = OCC }
 			450 = { add_core = OCC }
+			451 = { add_core = OCC }
 			452 = { add_core = OCC }
 			453 = { add_core = OCC }
 			454 = { add_core = OCC }
@@ -155,6 +136,8 @@ political_decisions = {
 			462 = { add_core = OCC }
 			463 = { add_core = OCC }
 			464 = { add_core = OCC }
+			465 = { add_core = OCC }
+			466 = { add_core = OCC }
 			467 = { add_core = OCC }
 			468 = { add_core = OCC }
 			469 = { add_core = OCC }
@@ -213,7 +196,6 @@ political_decisions = {
 			684 = { add_core = SLS }
 			685 = { add_core = SLS }
 			687 = { add_core = SLS }
-			688 = { add_core = SLS }
 			689 = { add_core = SLS }
 			2584 = { add_core = SLS }
 			

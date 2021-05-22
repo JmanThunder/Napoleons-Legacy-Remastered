@@ -19,10 +19,7 @@ political_decisions = {
 		effect = {
 			set_global_flag = angola_created
 			prestige = 5
-			ANG = {
-				primary_culture = THIS
-				set_country_flag = civilize_after_release
-			}
+			ANG = { primary_culture = THIS }
 			any_owned = {
 				limit = {
 					OR = {
@@ -63,10 +60,7 @@ political_decisions = {
 		effect = {
 			set_global_flag = mozambique_created
 			prestige = 5
-			MOZ = {
-				primary_culture = THIS
-				set_country_flag = civilize_after_release
-			}
+			MOZ = { primary_culture = THIS }
 			any_owned = {
 				limit = {
 					OR = {

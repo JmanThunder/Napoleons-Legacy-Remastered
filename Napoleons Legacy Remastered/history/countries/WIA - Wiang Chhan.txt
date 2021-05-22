@@ -3,7 +3,7 @@ primary_culture = lao
 religion = theravada
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.02
 
 ruling_party = WIA_conservative
@@ -15,6 +15,10 @@ upper_house = {
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
+}
+
+1861.1.1 = {
+	oob = "/1861/WIA_oob.txt"
 }
 
 slavery = no_slavery

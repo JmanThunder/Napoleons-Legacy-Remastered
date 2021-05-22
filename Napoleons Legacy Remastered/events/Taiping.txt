@@ -87,10 +87,13 @@ country_event = {
 					has_pop_culture = nanfaren
 					has_pop_culture = zhuang
 					has_pop_culture = yue
-					has_pop_religion = sunni
 				}
 			}
 			militancy = 5
+		}
+		any_pop = {
+			limit = { has_pop_religion = sunni }
+			militancy = 10
 		}
 		any_owned = {
 			limit = {
@@ -103,7 +106,7 @@ country_event = {
 			}
 			add_province_modifier = {
 				name = anti_manchu_sentiment
-				duration = 730
+				duration = 1825
 			}
 		}
 		any_country = {
@@ -114,10 +117,13 @@ country_event = {
 						has_pop_culture = nanfaren
 						has_pop_culture = zhuang
 						has_pop_culture = yue
-						has_pop_religion = sunni
 					}
 				}
 				militancy = 5
+			}
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = 10
 			}
 			any_owned = {
 				limit = {
@@ -130,7 +136,7 @@ country_event = {
 				}
 				add_province_modifier = {
 					name = anti_manchu_sentiment
-					duration = 730
+					duration = 1825
 				}
 			}
 		}
@@ -174,10 +180,13 @@ country_event = {
 					has_pop_culture = nanfaren
 					has_pop_culture = zhuang
 					has_pop_culture = yue
-					has_pop_religion = sunni
 				}
 			}
 			militancy = 5
+		}
+		any_pop = {
+			limit = { has_pop_religion = sunni }
+			militancy = 10
 		}
 		any_owned = {
 			limit = {
@@ -190,7 +199,7 @@ country_event = {
 			}
 			add_province_modifier = {
 				name = anti_manchu_sentiment
-				duration = 730
+				duration = 1825
 			}
 		}
 		any_country = {
@@ -201,10 +210,13 @@ country_event = {
 						has_pop_culture = nanfaren
 						has_pop_culture = zhuang
 						has_pop_culture = yue
-						has_pop_religion = sunni
 					}
 				}
 				militancy = 5
+			}
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = 10
 			}
 			any_owned = {
 				limit = {
@@ -217,7 +229,7 @@ country_event = {
 				}
 				add_province_modifier = {
 					name = anti_manchu_sentiment
-					duration = 730
+					duration = 1825
 				}
 			}
 		}

@@ -3,7 +3,7 @@ primary_culture = swahili
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.004
 
 ruling_party = ZAN_conservative
@@ -17,7 +17,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 set_country_flag = delay_unciv_annexation
 
 # Starting Consciousness

@@ -1065,7 +1065,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	title = "EVTNAME810055" #$COUNTRY_ADJ$ Independence!
+	title = "EVTNAME810055"
 	desc = "EVTDESC810055"
 	picture = "unite"
 	
@@ -1365,7 +1365,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	title = "EVTNAME810057" #The Colonial Regime Overthrown!
+	title = "EVTNAME810057"
 	desc = "EVTDESC810057"
 	picture = "unite"
 	
@@ -1624,13 +1624,37 @@ country_event = {
 
 	option = {
 		name = "We have no choice but to comply."
-		prestige = -15
+		prestige_factor = -0.25
 		set_global_flag = british_dismantled
 		any_pop = {
 			limit = {
 				location = { is_core = HND }
 			}
 			militancy = -4
+		}
+		any_country = {
+			limit = {
+				OR = {
+					tag = MAH
+					tag = MUG
+					tag = BNG
+				}
+				NOT = { has_global_flag = indian_call_to_union }
+				any_core = { owned_by = THIS }
+				exists = no
+				civilized = no
+			}
+			civilized = yes
+		}
+		any_country = {
+			limit = {
+				is_culture_group = south_asian
+				has_global_flag = indian_call_to_union
+				any_core = { owned_by = THIS }
+				exists = no
+				civilized = no
+			}
+			civilized = yes
 		}
 		any_country = {
 			limit = {
@@ -1680,27 +1704,11 @@ country_event = {
 			}
 			owner = { release_vassal = THIS }
 		}
-		random_owned = {
-			limit = {
-				owner = { civilized = yes }
-			}
-			FROM = {
-				any_owned = {
-					limit = { is_core = THIS }
-					secede_province = THIS
-				}
-			}
-		}
-		random_owned = {
-			limit = {
-				owner = { civilized = no }
-			}
-			FROM = { release = THIS }
-		}
 		FROM = {
+			release = THIS
 			diplomatic_influence = {
 				who = THIS
-				value = -200
+				value = -100
 			}
 		}
 
@@ -1795,7 +1803,6 @@ country_event = {
 			limit = { 
 				is_sphere_leader_of = THIS
 				NOT = { is_our_vassal = THIS }
-				THIS = { is_substate = no }
 			}
 			diplomatic_influence = {
 				who = THIS
@@ -1810,10 +1817,7 @@ country_event = {
 			country_event = 800056
 		}
 		random_country = {
-			limit = {
-				is_our_vassal = THIS
-				THIS = { is_substate = no }
-			}
+			limit = { is_our_vassal = THIS }
 			release_vassal = THIS
 			leave_alliance = THIS
 			diplomatic_influence = {
@@ -1871,7 +1875,7 @@ country_event = {
 
 country_event = {
 	id = 97700
-	title = "EVTNAME800151" #$COUNTRY_ADJ$ Patriots
+	title = "EVTNAME800151"
 	desc = "EVTDESC97700"
 	picture = "rebellion"
 	
@@ -2880,78 +2884,5 @@ country_event = {
 		clr_country_flag = called_for_help
 	}
 }
-
-province_event = {
-	id = 97570
-	title = "EVTNAME97570" #Native Unrest in $STATENAME$
-	desc = "EVTDESC97570"
 	
-	trigger = {
-		owner = {
-			war = no
-			has_country_flag = post_colonial_country
-			NOT = {
-				is_culture_group = arab
-				is_culture_group = west_african
-				is_culture_group = central_african
-				is_culture_group = east_african
-				is_culture_group = southern_african
-				is_culture_group = southeast_asian
-				primary_culture = maori
-			}
-		}
-		any_pop = {
-			OR = {
-				is_culture_group = arab
-				is_culture_group = west_african
-				is_culture_group = central_african
-				is_culture_group = east_african
-				is_culture_group = southern_african
-				is_culture_group = southeast_asian
-				culture = maori
-			}
-		}
-		controlled_by = THIS
-		NOT = {
-			average_militancy = 6
-			is_primary_culture = yes
-			has_province_modifier = peasant_revolt
-		}
-	}
 	
-	mean_time_to_happen = {
-		months = 400
-		modifier = {
-			factor = 0.75
-			any_neighbor_province = {
-				owned_by = THIS
-				has_province_modifier = peasant_revolt
-			}
-		}
-		modifier = {
-			factor = 0.5
-			any_neighbor_province = {
-				owned_by = THIS
-				OR = {
-					country_units_in_province = REB
-					controlled_by = REB
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = "They are $COUNTRY_ADJ$ citizens, not 'foreigners'."
-		add_province_modifier = {
-			name = peasant_revolt
-			duration = 730
-		}
-		state_scope = {
-			any_pop = {
-				limit = { is_primary_culture = no }
-				consciousness = 4
-				militancy = 4
-			}
-		}
-	}
-}

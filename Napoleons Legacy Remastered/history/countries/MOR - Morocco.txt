@@ -5,7 +5,7 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.20
+literacy = 0.1
 non_state_culture_literacy = 0.03
 
 # Political reforms
@@ -38,7 +38,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons

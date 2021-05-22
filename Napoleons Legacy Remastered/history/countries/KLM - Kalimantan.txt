@@ -4,7 +4,7 @@ culture = asian_minor
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.03
 non_state_culture_literacy = 0
 
@@ -38,13 +38,14 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 # Technologies
 
 
 oob = "KLM_oob.txt"
 1861.1.1 = {
+	oob = "/1861/KLM_oob.txt"
 	foreign_weapons = yes_foreign_weapons
 	flintlock_rifles = 1
 }

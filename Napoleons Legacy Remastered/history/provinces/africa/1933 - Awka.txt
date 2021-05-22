@@ -1,6 +1,5 @@
 owner = ARO
 controller = ARO
 add_core = ARO
-add_core = WRI
-trade_goods = cattle
+trade_goods = coal
 life_rating = 35

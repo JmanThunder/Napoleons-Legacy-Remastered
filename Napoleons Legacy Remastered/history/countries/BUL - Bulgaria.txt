@@ -3,7 +3,7 @@ primary_culture = bulgarian
 religion = orthodox
 government = hms_government
 plurality = 0.08
-nationalvalue = nv_order
+nationalvalue = nv_might
 literacy = 0.4
 civilized = yes
 
@@ -37,6 +37,9 @@ upper_house = {
 	communist = 0
 }
 
+1861.1.1 = {
+	oob = "/1861/BUL_oob.txt"
+}
 1861.1.1 = {
 # Technologies
 

@@ -171,7 +171,6 @@ political_decisions = {
 			1453 = { add_core = INO }
 			1454 = { add_core = INO }
 			1560 = { add_core = INO }
-			1421 = { add_core = INO }
 			any_country = {
 				limit = {
 					OR = {
@@ -396,7 +395,6 @@ political_decisions = {
 				limit = { has_pop_culture = malay }
 				militancy = -6
 			}
-			MLY = { set_country_flag = civilize_after_release }
 			release_vassal = MLY
 			relation = { who = MLY value = 200 }
 			diplomatic_influence = { who = MLY value = 200 }
@@ -851,12 +849,6 @@ political_decisions = {
 					remove_core = WIA
 				}
 			}
-			CHK = {
-				all_core = {
-					add_core = LXA
-					remove_core = CHK
-				}
-			}
 			any_owned = {
 				limit = { is_core = LXA }
 				add_province_modifier = {
@@ -868,13 +860,13 @@ political_decisions = {
 				set_country_flag = Luangprabang
 				government = democracy
 				political_reform = landed_voting
-				set_country_flag = civilize_after_release
+				civilized = yes
 			}
 		}
 	}
 	
 	form_french_indochina = {
-		picture = unequal_treaty
+		picture = map_east_indies
 		potential = {
 			tag = FRA
 			1380 = {

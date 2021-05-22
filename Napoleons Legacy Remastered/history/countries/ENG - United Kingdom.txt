@@ -90,6 +90,9 @@ upper_house = {
 	communist = 0
 }
 
+set_country_flag = existing_country
+decision = literacy_ENG
+
 schools = naval_tech_school
 
 foreign_investment = {
@@ -97,6 +100,7 @@ foreign_investment = {
 	DEN = 2000
 }
 
+decision = UK_setup
 oob = "ENG_oob.txt"
 
 1861.1.1 = {
@@ -108,6 +112,8 @@ oob = "ENG_oob.txt"
 	non_state_culture_literacy = 0.15
 	decision = crown_empress_of_india
 	decision = repeal_the_corn_laws
+	decision = canada_1861_start
+	decision = organize_british_columbia
 	set_country_flag = treaty_of_nanking
 	set_global_flag = kowloon_incident
 	set_country_flag = annexation_of_natal

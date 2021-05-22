@@ -50,7 +50,7 @@ upper_house = {
 	plurality = 60
 	literacy = 0.32
 	non_state_culture_literacy = 0.20
-	 
+	set_country_flag = existing_country
 	
 # Technologies
 	post_napoleonic_thought = 1

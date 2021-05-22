@@ -1,7 +1,5 @@
 capital = 605
-primary_culture = south_german
-culture = north_italian
-culture = french
+primary_culture = swiss
 religion = protestant
 government = democracy
 plurality = 25.0
@@ -42,6 +40,8 @@ upper_house = {
 	communist = 0
 }
 
+set_country_flag = existing_country
+decision = declare_neutrality
 
 #Technologies
 post_napoleonic_thought = 1

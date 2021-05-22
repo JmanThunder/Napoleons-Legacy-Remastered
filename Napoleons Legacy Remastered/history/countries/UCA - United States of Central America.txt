@@ -40,7 +40,7 @@ upper_house = {
 	communist = 0
 }
 
- 
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
@@ -65,7 +65,9 @@ consciousness = 2
 nonstate_consciousness = 0
 
 oob = "UCA_oob.txt"
-
+1861.1.1 = {
+	oob = "/1861/UCA_oob.txt"
+}
 1861.1.1 = {
 # Technologies
 	post_napoleonic_thought = 1
