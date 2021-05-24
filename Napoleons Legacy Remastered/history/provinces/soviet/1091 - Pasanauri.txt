@@ -1,5 +1,5 @@
-owner = TCA
-controller = TCA
+owner = QAJ
+controller = QAJ
 add_core = GEO
 add_core = TCA
 trade_goods = wool

@@ -1,5 +1,6 @@
-owner = XIN
-controller = XIN
+owner = TIB
+controller = TIB
+add_core = TIB
 add_core = CHI
 add_core = XIN
 trade_goods = grain

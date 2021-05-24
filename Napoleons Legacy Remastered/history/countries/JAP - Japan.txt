@@ -1,10 +1,11 @@
-capital = 1649
+capital = 1657
 primary_culture = japanese
-religion = shinto
+religion = mahayana
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.40
+prestige = 3
 
 # Political reforms
 slavery = no_slavery
@@ -25,18 +26,28 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
+# New Reforms
+conscription = four_year_draft
+debt_law = peonage
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = closed_borders
+
+set_country_flag = mahayana_country
+set_country_flag = exempt_from_vassal_contribution
+
 ruling_party = JAP_reactionary
 upper_house = {
-	fascist = 0
-	liberal = 17
-	conservative = 35
-	reactionary = 48
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
+    fascist = 0
+    liberal = 17
+    conservative = 35
+    reactionary = 48
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
 }
 
-set_country_flag = existing_country
 
 foreign_weapons = yes_foreign_weapons
 army_schools = yes_army_schools
@@ -48,6 +59,15 @@ finance_reform = yes_finance_reform
 flintlock_rifles = 1
 
 # Inventions
+small_arms_production = yes
+ammunition_production = yes
+
+# Inventions
+#bottling_process = yes
+modern_winemaking = yes
+#big_sail_ships = yes
+#sail_ships_transport = yes
+#big_sail_support = yes
 
 # Starting Consciousness
 consciousness = 0
@@ -55,7 +75,7 @@ nonstate_consciousness = 0
 
 oob = "JAP_oob.txt"
 1861.1.1 = {
-	oob = "/1861/JAP_oob.txt"
+    oob = "/1861/JAP_oob.txt"
 }
 1861.1.1 = {
 
@@ -72,5 +92,6 @@ flintlock_rifles = 1
 post_nelsonian_thought = 1
 
 # Inventions
+#bottling_process = yes
 
 }

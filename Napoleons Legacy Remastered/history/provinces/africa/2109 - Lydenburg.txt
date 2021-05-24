@@ -3,7 +3,6 @@ controller = MAT
 add_core = SUA
 trade_goods = grain
 life_rating = 35
-terrain = woods
 1861.1.1 = {
 	owner = TRN
 	controller = TRN

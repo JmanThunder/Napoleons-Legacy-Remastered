@@ -1,13 +1,13 @@
 capital = 1914
-primary_culture = french
-culture = ewe
-culture = african_minor
+primary_culture = ewe
+culture = east_kwa
+culture = fon
+culture = gur
 religion = catholic
 government = democracy
 plurality = 0.0
-nationalvalue = nv_order
-literacy = 0.004
-civilized = yes
+nationalvalue = nv_tradition
+literacy = 0.01
 
 # Political reforms
 slavery = no_slavery
@@ -28,14 +28,25 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-ruling_party = DAH_conservative
-upper_house = {
-	fascist = 0
-	liberal = 16
-	conservative = 63
-	reactionary = 21
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
-}
+# New Reforms
+conscription = no_draft
+debt_law = peonage
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
 
+set_country_flag = catholic_country
+
+set_country_flag = post_colonial_country
+
+ruling_party = TOG_conservative
+upper_house = {
+    fascist = 0
+    liberal = 16
+    conservative = 63
+    reactionary = 21
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
+}

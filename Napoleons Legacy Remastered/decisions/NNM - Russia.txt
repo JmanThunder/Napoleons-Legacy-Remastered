@@ -36,12 +36,12 @@ political_decisions = {
 
 			#Congress Poland
 			#first we must fix the Polish cores
-			POL = {
-				all_core = { remove_core = POL }
-			}
-			PLC = {
-				all_core = { remove_core = PLC }
-			}
+			#POL = {
+			#	all_core = { remove_core = POL }
+			#}
+			#PLC = {
+			#	all_core = { remove_core = PLC }
+			#}
 			
 			#now we can add the cores for Congress Poland
 			706 = { add_core = CPL }

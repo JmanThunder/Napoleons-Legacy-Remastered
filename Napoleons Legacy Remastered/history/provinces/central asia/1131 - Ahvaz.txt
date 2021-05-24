@@ -1,5 +1,6 @@
-owner = PER
-controller = PER
+owner = QAJ
+controller = QAJ
+add_core = QAJ
 add_core = PER
 add_core = IRQ
 trade_goods = grain

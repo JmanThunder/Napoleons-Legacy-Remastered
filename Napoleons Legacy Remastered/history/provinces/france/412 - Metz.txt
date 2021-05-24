@@ -1,9 +1,10 @@
 owner = FRA
 controller = FRA
 add_core = FRA
+add_core = BOR
 add_core = ALS
 trade_goods = cattle
-life_rating = 32
+life_rating = 40
 #state_building = {
 #    level = 1
 #    building = fabric_factory

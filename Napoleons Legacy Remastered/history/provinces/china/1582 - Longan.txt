@@ -1,5 +1,6 @@
-owner = SZC
-controller = SZC
+owner = TIB
+controller = TIB
+add_core = TIB
 add_core = CHI
 add_core = SZC
 trade_goods = coal

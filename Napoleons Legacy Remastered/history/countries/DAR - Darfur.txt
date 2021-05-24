@@ -1,6 +1,5 @@
 capital = 1841
 primary_culture = fur
-culture = african_minor
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
@@ -26,18 +25,27 @@ health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
+border_policy = open_borders
+
+#New Reforms
+conscription = no_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
 
 ruling_party = DAR_conservative
 upper_house = {
-	fascist = 0
-	liberal = 16
-	conservative = 63
-	reactionary = 21
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
+    fascist = 0
+    liberal = 0
+    conservative = 80
+    reactionary = 20
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
 }
 
+set_country_flag = sunni_country
 foreign_weapons = yes_foreign_weapons
 # Technologies
 flintlock_rifles = 1
@@ -50,5 +58,5 @@ nonstate_consciousness = 0
 
 oob = "DAR_oob.txt"
 1861.1.1 = {
-	oob = "/1861/DAR_oob.txt"
+    oob = "/1861/DAR_oob.txt"
 }

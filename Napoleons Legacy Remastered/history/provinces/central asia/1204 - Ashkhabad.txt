@@ -1,5 +1,6 @@
-owner = PER
-controller = PER
+owner = AFS
+controller = AFS
+add_core = AFS
 add_core = PER
 add_core = TKM
 trade_goods = fruit

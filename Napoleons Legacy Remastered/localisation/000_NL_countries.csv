@@ -1,0 +1,264 @@
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+BEG;Berg;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BEG_ADJ;Bergian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NOG;Nogai;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NOG_ADJ;Nogai;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NOG_proletarian_dictatorship;The People's Republic of Nogai;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NOG_fascist_dictatorship;The State of Nogai;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NOG_feudal_monarchy;The Nogai Horde;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NOG_khanate;The Nogai Horde;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NOG_absolute_monarchy;The Nogai Khanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NOG_prussian_constitutionalism;The Nogai Khanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NOG_hms_government;The Nogai Khanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NOG_democracy;The Nogai Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ERT;Eritrea;;;;;;;;;;;;;
+ERT_ADJ;Eritrean;;;;;;;;;;;;;
+ERT_conservative;Royal Faction;;;;;;;;;;;;;
+ERT_liberal;The Liberal Faction;;;;;;;;;;;;;
+ERT_reactionary;The Nationalist Faction;;;;;;;;;;;;;
+ERT_anarcho_liberal;The Radical Faction;;;;;;;;;;;;;
+ERT_socialist;The Socialist Faction;;;;;;;;;;;;;
+ERT_communist;The Communist Faction;;;;;;;;;;;;;
+ERT_fascist;The Fascist Faction;;;;;;;;;;;;;
+QAJ;Qajar Iran;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+QAJ_ADJ;Iranian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AFS;Afsharid State;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AFS_ADJ;Afsharid;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AFS_feudal_monarchy;Afsharid Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AFS_feudal_monarchy_ADJ;Afsharid;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AFS_absolute_monarchy;Afsharid Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AFS_absolute_monarchy_ADJ;Afsharid;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AFS_prussian_constitutionalism;Afsharid Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AFS_prussian_constitutionalism_ADJ;Afsharid;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MRD;Mordvinia;;;;;;;;;;;;x
+MRD_ADJ;Mordvin;;;;;;;;;;;;x
+MRD_proletarian_dictatorship;The Mordvin ASSR;;;;;;;;;;;;x
+UDM;Udmurtia;;;;;;;;;;;;x
+UDM_ADJ;Udmurt;;;;;;;;;;;;x
+UDM_proletarian_dictatorship;The Udmurt ASSR;;;;;;;;;;;;x
+CHV;Chuvashia;;;;;;;;;;;;x
+CHV_ADJ;Chuvash;;;;;;;;;;;;x
+CHV_proletarian_dictatorship;The Chuvash ASSR;;;;;;;;;;;;x
+KOM;Komia;;;;;;;;;;;;x
+KOM_ADJ;Komi;;;;;;;;;;;;x
+BSK;Bashkiria;;;;;;;;;;;;x
+BSK_ADJ;Bashkir;;;;;;;;;;;;x
+KMY;Kumykia;;;;;;;;;;;;x
+KMY_ADJ;Kumyk;;;;;;;;;;;;x
+KRI;Karachay;;;;;;;;;;;;x
+KRI_ADJ;Karachay;;;;;;;;;;;;x
+AVR;Avaristan;;;;;;;;;;;;x
+AVR_ADJ;Avar;;;;;;;;;;;;x
+ING;Ingushetia;;;;;;;;;;;;x
+ING_ADJ;Ingush;;;;;;;;;;;;x
+LEZ;Lekia;;;;;;;;;;;;x
+LEZ_ADJ;Lezgin;;;;;;;;;;;;x
+LAK;Lakia;;;;;;;;;;;;x
+LAK_ADJ;Lak;;;;;;;;;;;;x
+OSS;Ossetia;;;;;;;;;;;;x
+OSS_ADJ;Ossetian;;;;;;;;;;;;x
+KLJ;Khalajstan;;;;;;;;;;;;x
+KLJ_ADJ;Khalaj;;;;;;;;;;;;x
+MRL;Mari El;;;;;;;;;;;;x
+MRL_ADJ;Mari El;;;;;;;;;;;;x
+KHM;Khemit;;;;;;;;;;;;;;;;;;;;x
+KHM_ADJ;Khemetic;;;;;;;;;;;;;;;;;;;;x
+KHM_democracy;Khemit;;;;;;;;;;;;;;;;;;;;x
+KHM_theocracy;Coptic Metropolitanate;;;;;;;;;;;;;;;;;;;;x
+KHM_presidential_dictatorship;Coptic Republic of Khemit;;;;;;;;;;;;;;;;;;;;x
+KHM_bourgeois_dictatorship;Coptic Republic of Khemit;;;;;;;;;;;;;;;;;;;;x
+KHM_proletarian_dictatorship;Socialist Republic of Khemit;;;;;;;;;;;;;;;;;;;;x
+KHM_fascist_dictatorship;Coptic Republic of Khemit;;;;;;;;;;;;;;;;;;;;x
+KHM_absolute_monarchy;Khemit;;;;;;;;;;;;;x
+KHM_prussian_constitutionalism;Khemit;;;;;;;;;;;;;x
+LUS;Lusatia;;;;;;;;;;;;;;;;;;;;;;;;x
+LUS_ADJ;Lusatian;;;;;;;;;;;;;;;;;;;;;;;;x
+LUS_proletarian_dictatorship;Socialist Republic of Lusatia;;;;;;;;;x
+LUS_presidential_dictatorship;Republic of Lusatia;;;;;;;;;x
+LUS_bourgeois_dictatorship;Republic of Lusatia;;;;;;;;;x
+LUS_fascist_dictatorship;Corporatist Wendland;;;;;;;;;x
+LUS_absolute_monarchy;Lusatia;;;;;;;;;x
+LUS_prussian_constitutionalism;Lusatia;;;;;;;;;x
+LUS_hms_government;Lusatia;;;;;;;;;x
+LUS_democracy;Lusatia;;;;;;;;;x
+LUS_colonial_company;Margraviate of Lusatia;;;;;;;;;x
+HAZ;Hazaristan;;;;;;;;;;;;;;;;;;;;;;;;x
+HAZ_ADJ;Hazara;;;;;;;;;;;;;;;;;;;;;;;;x
+FGU;Guyane;;;;;;;;;;;;;x
+FGU_ADJ;Guyanais;;;;;;;;;;;;;x
+FGU_colonial_company;Guyane Française;;;;;;;;;;;;;x
+FGU_conservative;Parti Conservateur du Cayenne;;;;;;;;;;;;;x
+FGU_liberal;Forces Démocratiques de Guyane;;;;;;;;;;;;;x
+FGU_socialist;Mouvement de Décolonisation et d'Émancipation Sociale;;;;;;;;;;;;;x
+FGU_communist;Walwari;;;;;;;;;;;;;x
+FGU_reactionary;Union des Propriétaires Fonciers;;;;;;;;;;;;;x
+FGU_anarcho_liberal;Front Libre Guyanais;;;;;;;;;;;;;x
+FGU_fascist;Garde civile de Cayenne;;;;;;;;;;;;;x
+FGU_democracy;Guyane;;;;;;;;;;;;;;;;;;;;x
+FGU_presidential_dictatorship;Guyane;;;;;;;;;;;;;;;;;;;;x
+FGU_bourgeois_dictatorship;Guyane;;;;;;;;;;;;;;;;;;;;x
+FGU_proletarian_dictatorship;République Socialiste du Guyane;;;;;;;;;;;;;;;;;;;;x
+FGU_fascist_dictatorship;Guyane;;;;;;;;;;;;;;;;;;;;x
+FGU_absolute_monarchy;Royaume de Guyane;;;;;;;;;;;;;x
+FGU_prussian_constitutionalism;Royaume de Guyane;;;;;;;;;;;;;x
+GLP;Guadeloupe;;;;;;;;;;;;;;;;;;;;;;;;x
+GLP_ADJ;Guadeloupéen;;;;;;;;;;;;;;;;;;;;;;;;x
+GLP_conservative;Parti Conservateur des Antilles;;;;;;;;;;;;;x
+GLP_liberal;Forces Démocratiques Antillais;;;;;;;;;;;;;x
+GLP_socialist;Mouvement de Décolonisation et d'Émancipation Sociale;;;;;;;;;;;;;x
+GLP_communist;Parti Révolutionnaire Antillais;;;;;;;;;;;;;x
+GLP_reactionary;Union des Propriétaires Fonciers;;;;;;;;;;;;;x
+GLP_anarcho_liberal;Front Libre des Antilles;;;;;;;;;;;;;x
+GLP_fascist;Garde civile des Antilles;;;;;;;;;;;;;x
+GLP_democracy;Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_presidential_dictatorship;Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_bourgeois_dictatorship;Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_proletarian_dictatorship;République Socialiste du Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_fascist_dictatorship;Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_absolute_monarchy;Royaume de Guadeloupe;;;;;;;;;;;;;x
+GLP_prussian_constitutionalism;Royaume de Guadeloupe;;;;;;;;;;;;;x
+MTQ;Martinique;;;;;;;;;;;;;;;;;;;;;;;;x
+MTQ_ADJ;Martiniqués;;;;;;;;;;;;;;;;;;;;;;;;x
+MTQ_democracy;Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_presidential_dictatorship;Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_bourgeois_dictatorship;Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_proletarian_dictatorship;République Socialiste du Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_fascist_dictatorship;Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_absolute_monarchy;Royaume de Martinique;;;;;;;;;;;;;x
+MTQ_prussian_constitutionalism;Royaume de Martinique;;;;;;;;;;;;;x
+COM;Comancheria;;;;;;;;;;;;;;;;;;;;;;;;x
+COM_ADJ;Comanche;;;;;;;;;;;;;;;;;;;;;;;;x
+LUR;Luristan;;;;;;;;;;;;;x
+LUR_ADJ;Luristani;;;;;;;;;;;;;x
+AHW;Arabistan Emirate;;;;;;;;;;;;;x
+AHW_ADJ;Arabistani;;;;;;;;;;;;;x
+AHW_democracy;Republic of Arabistan;;;;;;;;;;;;;;;;;;;;x
+AHW_presidential_dictatorship;Arabistan;;;;;;;;;;;;;;;;;;;;x
+AHW_bourgeois_dictatorship;United States of Arabistan;;;;;;;;;;;;;;;;;;;;x
+AHW_proletarian_dictatorship;Arabistan Democratic Republic;;;;;;;;;;;;;;;;;;;;x
+AHW_fascist_dictatorship;Arabistan;;;;;;;;;;;;;;;;;;;;x
+AHW_absolute_monarchy;Arabistan Emirate;;;;;;;;;;;;;x
+AHW_prussian_constitutionalism;Arabistan Emirate;;;;;;;;;;;;;x
+HER;Herat;;;;;;;;;;;;;;;;;;;;;;x,,,
+HER_ADJ;Herati;;;;;;;;;;;;;;;;;;;;;;x,,,
+HER_absolute_monarchy;Herat;;;;;;;;;;;;;;;;;;;;;;x,,,
+HER_prussian_constitutionalism;Herat;;;;;;;;;;;;;;;;;;;;;;x,,,
+HER_hms_government;Herat;;;;;;;;;;;;;;;;;;;;;;x,,,
+HER_democracy;Republic of Herat;;;;;;;;;;;;;;;;;;;;;;x,,,
+HER_fascist_dictatorship;Herat;;;;;;;;;;;;;;;;;;;;;;x,,,
+HER_proletarian_dictatorship;Socialist Republic of Herat;;;;;;;;;;;;;;;;;;;;;;x,,,
+KHR;Khorasan;;;;;;;;;;;;;;;;;;;;;;x,,,
+KHR_ADJ;Khorasani;;;;;;;;;;;;;;;;;;;;;;x,,,
+KHR_absolute_monarchy;Khorasan;;;;;;;;;;;;;;;;;;;;;;x,,,
+KHR_prussian_constitutionalism;Khorasan;;;;;;;;;;;;;;;;;;;;;;x,,,
+KHR_hms_government;Khorasan;;;;;;;;;;;;;;;;;;;;;;x,,,
+KHR_democracy;Republic of Khorasan;;;;;;;;;;;;;;;;;;;;;;x,,,
+KHR_fascist_dictatorship;Free Khorasani Republic;;;;;;;;;;;;;;;;;;;;;;x,,,
+KHR_proletarian_dictatorship;Khorasani Socialist Republic;;;;;;;;;;;;;;;;;;;;;;x,,,
+CIS_ADJ;Cisalpinie;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CIS_absolute_monarchy;Kingdom Of Italie;Kingdom Of Cisalpinie;Kingdom Of Cisalpinie;Kingdom Of Cisalpinie;Kingdom Of Cisalpinie;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CIS_prussian_constitutionalism;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CIS_hms_government;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CIS_presidential_dictatorship;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CIS_proletarian_dictatorship;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CIS_democracy;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;Cisalpinie Confederation;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+GBR;Great Britain;;;;;;;;;;;;;;;;;;;;x
+GBR_democracy;The British Republic;;;;;;;;;;;;;;;;;;;;x
+GBR_presidential_dictatorship;The British Republic;;;;;;;;;;;;;;;;;;;;x
+GBR_ADJ;British;;;;;;;;;;;;;;;;;;;;x
+IME;Imereti;;;;;;;;;;;;;;;;;;;;;;;;x
+IME_ADJ;Imeretian;;;;;;;;;;;;;;;;;;;;;;;;x
+KRT;Kartli;;;;;;;;;;;;;;;;;;;;;;;;x
+KRT_ADJ;Kartvelian;;;;;;;;;;;;;;;;;;;;;;;;x
+ILL;Illyria;;;;;;;;;x;;;;;;;;
+ILL_ADJ;Illyrian;;;;;;;;;x;;;;;;;;
+DNW;Denmark-Norway;;;;;;;;;x;;;;
+DNW_ADJ;Danish;;;;;;;;;x;;;;
+SIC;Naples;;;;;;;;;;;;;x;;;;
+SIC_ADJ;Neapolitan;;;;;;;;;;;;;x;;;;
+HLL;Kingdom of Holland;;;;;;;;;;;;;x;;;;
+HLL_ADJ;Dutch;;;;;;;;;;;;;x;;;;
+UPB;Portugal-Brazil;Portugal-Brazil;Portugal-Brazil;;;;;;;;;;;x;
+UPB_ADJ;Portuguese;Portuguese;Portuguese;;;;;;;;;;;x;
+UPB_democracy;Lusitania;Lusitania;Lusitania;;;;;;;;;;;x;
+UPB_democracy_ADJ;Lusitanic;Lusitanic;Lusitanic;;;;;;;;;;;x;
+UPB_proletarian_dictatorship;Lusitanic Union;Lusitanic Union;Lusitanic Union;;;;;;;;;;;x;
+UPB_proletarian_dictatorship_ADJ;Lusitanic;Lusitanic;Lusitanic;;;;;;;;;;;x;
+UPB_fascist_dictatorship;Lusitanic Union;Lusitanic Union;Lusitanic Union;;;;;;;;;;;x;
+UPB_fascist_dictatorship_ADJ;Lusitanic;Lusitanic;Lusitanic;;;;;;;;;;;x;
+NSA;Napoleonic Spain;;;;;;;;;x;;;;;;;;
+NSA_ADJ;Spanish;;;;;;;;;;;;;x;;;;
+PAW;Pawnee;Pawnees;Pani;Paunisi;Pawnee;Pawnee;Záloghitelezo;Pawnee;Záloghitelezo;Pandhouder;Pawnee;Ïàóíè;Pawnee;z
+PAW_ADJ;Pawnee;Pawnee;Pani-;Paunisów;Pawnee;di Pawnee;Záloghitelezo;Pawnee;Záloghitelezo;Pandhouder;Pawnee;Ïàóíñê.;Pawnee;y
+OJI;Ojibwe;Ojibwés;Ojibwe;Ojibwa;Ojibwes;Ojibwa;Ojibwa;Ojibwa;Ojibwa;Ojibwa;Ojibwa;Ojibwa;Ojibwa;x
+OJI_ADJ;Ojibwe;ojibwée;Ojibwisch;Ojibwe;ojibwe;Ojibwe;Ojibwe;Ojibwe;Ojibwe;Ojibwe;Ojibwe;Ojibwe;Ojibwe;x
+OJI_anarcho_liberal;Radical Party;Parti Radical;Radikale Partei;Partia Radykalna;Partido Radical;Partito Radicale;Radikális Párt;Radikální Strana;Radikális Párt;Radicale Partij;Partido Radical;Ðàäèêàëüíàÿ Ïàðòèÿ;Radikaalipuolue;x
+OJI_communist;Communist Party;Parti Communiste;Kommunistische Partei;Partia Komunistyczna;Partido Comunista;Partito Comunista;Kommunista Párt;Komunistická Strana;Kommunista Párt;Communistische Partij;Partido Comunista;Êîììóíèñòè÷åñêàÿ Ïàðòèÿ;Kommunistinenpuolue;x
+OJI_conservative;Conservative Party;Parti Conservateur;Konservative Partei;Partia Konserwatywna;Partido Conservador;Partito Conservatore;Konzervatív Párt;Konzervativní Strana;Konzervatív Párt;Conservatieve Partij;Partido Conservador;Êîíñåðâàòèâíàÿ Ïàðòèÿ;Konservatiivipuolue;x
+OJI_fascist;Fascist Party;Parti Fasciste;Faschistische Partei;Partia Faszystowska;Partido Fascista;Partito Fascista;Fasiszta Párt;Fašistická Strana;Fasiszta Párt;Fascistische Partij;Partido Fascista;Ôàøèñòñêàÿ Ïàðòèÿ;Fasistinenpuolue;x
+OJI_liberal;Liberal Party;Parti Libéral;Liberale Partei;Partia Liberalna;Partido Liberal;Partito Liberale;Liberális Párt;Liberální Strana;Liberális Párt;Liberale Partij;Partido Liberal;Ëèáåðàëüíàÿ Ïàðòèÿ;Liberaalipuolue;x
+OJI_reactionary;National Party;Parti National;Nationale Partei;Partia Narodowa;Partido Nacional;Partito Nazionale;Nemzeti Párt;Národní Strana;Nemzeti Párt;Nationale Partij;Partido Nacional;Íàöèîíàëüíàÿ Ïàðòèÿ;Kansallispuolue;x
+OJI_socialist;Socialist Party;Parti Socialiste;Sozialistische Partei;Partia Socjalistyczna;Partido Socialista;Partito Socialista;Szocialista Párt;Socialistická Strana;Szocialista Párt;Socialistische Partij;Partido Socialista;Ñîöèàëèñòè÷åñêàÿ Ïàðòèÿ;Sosialistinenpuolue;x
+OSA;Osage;Osages;Osage;Osage;Osages;Osage;Osage;Osage;Osage;Osage;Osage;Osage;Osage;x
+OSA_ADJ;Osage;osage;Osagisch;Osage;osage;Osage;Osage;Osage;Osage;Osage;Osage;Osage;Osage;x
+OSA_anarcho_liberal;Radical Party;Parti Radical;Radikale Partei;Partia Radykalna;Partido Radical;Partito Radicale;Radikális Párt;Radikální Strana;Radikális Párt;Radicale Partij;Partido Radical;Ðàäèêàëüíàÿ Ïàðòèÿ;Radikaalipuolue;x
+OSA_communist;Communist Party;Parti Communiste;Kommunistische Partei;Partia Komunistyczna;Partido Comunista;Partito Comunista;Kommunista Párt;Komunistická Strana;Kommunista Párt;Communistische Partij;Partido Comunista;Êîììóíèñòè÷åñêàÿ Ïàðòèÿ;Kommunistinenpuolue;x
+OSA_conservative;Conservative Party;Parti Conservateur;Konservative Partei;Partia Konserwatywna;Partido Conservador;Partito Conservatore;Konzervatív Párt;Konzervativní Strana;Konzervatív Párt;Conservatieve Partij;Partido Conservador;Êîíñåðâàòèâíàÿ Ïàðòèÿ;Konservatiivipuolue;x
+OSA_fascist;Fascist Party;Parti Fasciste;Faschistische Partei;Partia Faszystowska;Partido Fascista;Partito Fascista;Fasiszta Párt;Fašistická Strana;Fasiszta Párt;Fascistische Partij;Partido Fascista;Ôàøèñòñêàÿ Ïàðòèÿ;Fasistinenpuolue;x
+OSA_liberal;Liberal Party;Parti Libéral;Liberale Partei;Partia Liberalna;Partido Liberal;Partito Liberale;Liberális Párt;Liberální Strana;Liberális Párt;Liberale Partij;Partido Liberal;Ëèáåðàëüíàÿ Ïàðòèÿ;Liberaalipuolue;x
+OSA_reactionary;National Party;Parti National;Nationale Partei;Partia Narodowa;Partido Nacional;Partito Nazionale;Nemzeti Párt;Národní Strana;Nemzeti Párt;Nationale Partij;Partido Nacional;Íàöèîíàëüíàÿ Ïàðòèÿ;Kansallispuolue;x
+OSA_socialist;Socialist Party;Parti Socialiste;Sozialistische Partei;Partia Socjalistyczna;Partido Socialista;Partito Socialista;Szocialista Párt;Socialistická Strana;Szocialista Párt;Socialistische Partij;Partido Socialista;Ñîöèàëèñòè÷åñêàÿ Ïàðòèÿ;Sosialistinenpuolue;x
+SIO;Sioux;Sioux;Sioux;Sioux;Siux;Sioux;Sioux;Sioux;Sioux;Sioux;Sioux;Sioux;Sioux;x
+SIO_ADJ;Sioux;siouane;Siouxisch;Sioux;siux;Sioux;Sioux;Sioux;Sioux;Sioux;Sioux;Sioux;Sioux;x
+SIO_anarcho_liberal;Radical Party;Parti Radical;Radikale Partei;Partia Radykalna;Partido Radical;Partito Radicale;Radikális Párt;Radikální Strana;Radikális Párt;Radicale Partij;Partido Radical;Ðàäèêàëüíàÿ Ïàðòèÿ;Radikaalipuolue;x
+SIO_communist;Communist Party;Parti Communiste;Kommunistische Partei;Partia Komunistyczna;Partido Comunista;Partito Comunista;Kommunista Párt;Komunistická Strana;Kommunista Párt;Communistische Partij;Partido Comunista;Êîììóíèñòè÷åñêàÿ Ïàðòèÿ;Kommunistinenpuolue;x
+SIO_conservative;Conservative Party;Parti Conservateur;Konservative Partei;Partia Konserwatywna;Partido Conservador;Partito Conservatore;Konzervatív Párt;Konzervativní Strana;Konzervatív Párt;Conservatieve Partij;Partido Conservador;Êîíñåðâàòèâíàÿ Ïàðòèÿ;Konservatiivipuolue;x
+SIO_fascist;Fascist Party;Parti Fasciste;Faschistische Partei;Partia Faszystowska;Partido Fascista;Partito Fascista;Fasiszta Párt;Fašistická Strana;Fasiszta Párt;Fascistische Partij;Partido Fascista;Ôàøèñòñêàÿ Ïàðòèÿ;Fasistinenpuolue;x
+SIO_liberal;Liberal Party;Parti Libéral;Liberale Partei;Partia Liberalna;Partido Liberal;Partito Liberale;Liberális Párt;Liberální Strana;Liberális Párt;Liberale Partij;Partido Liberal;Ëèáåðàëüíàÿ Ïàðòèÿ;Liberaalipuolue;x
+SIO_reactionary;National Party;Parti National;Nationale Partei;Partia Narodowa;Partido Nacional;Partito Nazionale;Nemzeti Párt;Národní Strana;Nemzeti Párt;Nationale Partij;Partido Nacional;Íàöèîíàëüíàÿ Ïàðòèÿ;Kansallispuolue;x
+SIO_socialist;Socialist Party;Parti Socialiste;Sozialistische Partei;Partia Socjalistyczna;Partido Socialista;Partito Socialista;Szocialista Párt;Socialistická Strana;Szocialista Párt;Socialistische Partij;Partido Socialista;Ñîöèàëèñòè÷åñêàÿ Ïàðòèÿ;Sosialistinenpuolue;x
+CYN;Cheyenne;Cheyennes;Cheyenne;Cheyenne;Cheyenes;Cheyenne;Cheyenne;Cheyenne;Cheyenne;Cheyenne;Cheyenne;Cheyenne;Cheyenne;x
+CYN_ADJ;Cheyenne;cheyenne;Cheyennisch;Cheyenne;cheyene;Cheyenne;Cheyenne;Cheyenne;Cheyenne;Cheyenne;Cheyenne;Cheyenne;Cheyenne;x
+CYN_anarcho_liberal;Radical Party;Parti Radical;Radikale Partei;Partia Radykalna;Partido Radical;Partito Radicale;Radikális Párt;Radikální Strana;Radikális Párt;Radicale Partij;Partido Radical;Ðàäèêàëüíàÿ Ïàðòèÿ;Radikaalipuolue;x
+CYN_communist;Communist Party;Parti Communiste;Kommunistische Partei;Partia Komunistyczna;Partido Comunista;Partito Comunista;Kommunista Párt;Komunistická Strana;Kommunista Párt;Communistische Partij;Partido Comunista;Êîììóíèñòè÷åñêàÿ Ïàðòèÿ;Kommunistinenpuolue;x
+CYN_conservative;Conservative Party;Parti Conservateur;Konservative Partei;Partia Konserwatywna;Partido Conservador;Partito Conservatore;Konzervatív Párt;Konzervativní Strana;Konzervatív Párt;Conservatieve Partij;Partido Conservador;Êîíñåðâàòèâíàÿ Ïàðòèÿ;Konservatiivipuolue;x
+CYN_fascist;Fascist Party;Parti Fasciste;Faschistische Partei;Partia Faszystowska;Partido Fascista;Partito Fascista;Fasiszta Párt;Fašistická Strana;Fasiszta Párt;Fascistische Partij;Partido Fascista;Ôàøèñòñêàÿ Ïàðòèÿ;Fasistinenpuolue;x
+CYN_liberal;Liberal Party;Parti Libéral;Liberale Partei;Partia Liberalna;Partido Liberal;Partito Liberale;Liberális Párt;Liberální Strana;Liberális Párt;Liberale Partij;Partido Liberal;Ëèáåðàëüíàÿ Ïàðòèÿ;Liberaalipuolue;x
+CYN_reactionary;National Party;Parti National;Nationale Partei;Partia Narodowa;Partido Nacional;Partito Nazionale;Nemzeti Párt;Národní Strana;Nemzeti Párt;Nationale Partij;Partido Nacional;Íàöèîíàëüíàÿ Ïàðòèÿ;Kansallispuolue;x
+CYN_socialist;Socialist Party;Parti Socialiste;Sozialistische Partei;Partia Socjalistyczna;Partido Socialista;Partito Socialista;Szocialista Párt;Socialistická Strana;Szocialista Párt;Socialistische Partij;Partido Socialista;Ñîöèàëèñòè÷åñêàÿ Ïàðòèÿ;Sosialistinenpuolue;x
+BLA;Blackfoot;Pieds-Noirs;Schwarzfuß;Czarne Stopy;Pies Negros;Piedi-Neri;Blackfoot;Blackfoot;Blackfoot;Blackfoot;Blackfoot;×åðíîíîãèå;Blackfoot;z
+BLA_ADJ;Blackfoot;des Pieds-Noirs;Schwarzfuß-;Czarnych Stóp;Pies Negros;dei Piedi-Neri;Blackfoot;Blackfoot;Blackfoot;Blackfoot;Blackfoot;×åðíîíîã;Blackfoot;y
+SMN;Seminole;x;;;;;;;;;;;;;;;;
+SMN_ADJ;Seminole;x;;;;;;;;;;;;;;;;
+APA;Apache;Apaches;Apachen;Apacze;Apache;Apaci;Apache;Apache;Apache;Apache;Apache;Àïà÷è;Apache;z
+APA_ADJ;Apache;Apache;Apache;Apaczów;Apache;Apaci;Apache;Apache;Apache;Apache;Apache;Àïà÷ñê.;Apache;y
+COM;Comanche;Comanches;Komantsche;Komancze;Comanche;Comanche;Comanche;Comanche;Comanche;Comanche;Comanche;Êîìàí÷è;Comanche;z
+COM_ADJ;Comanche;Comanche;Komantsch;Komanczów;Comanche;dei Comanche;Comanche;Comanche;Comanche;Comanche;Comanche;Êîìàí÷ñê.;Comanche;y
+TAB;Mazandaran;Mazandéran;Mazandaran;Tabarestan;Mazandarán;Tabarestan;Tabarestan;Tabarestan;Tabarestan;Tabarestan;Tabarestan;Tabarestan;Tabarestan;x
+TAB_ADJ;Mazandarani;mazandéranie;Mazandaranisch;Mazandarani;mazandaraní;Mazandarani;Mazandarani;Mazandarani;Mazandarani;Mazandarani;Mazandarani;Mazandarani;Mazandarani;x
+TAB_anarcho_liberal;Radical Party;Parti Radical;Radikale Partei;Partia Radykalna;Partido Radical;Partito Radicale;Radikális Párt;Radikální Strana;Radikális Párt;Radicale Partij;Partido Radical;Ðàäèêàëüíàÿ Ïàðòèÿ;Radikaalipuolue;x
+TAB_communist;Communist Party;Parti Communiste;Kommunistische Partei;Partia Komunistyczna;Partido Comunista;Partito Comunista;Kommunista Párt;Komunistická Strana;Kommunista Párt;Communistische Partij;Partido Comunista;Êîììóíèñòè÷åñêàÿ Ïàðòèÿ;Kommunistinenpuolue;x
+TAB_conservative;Conservative Party;Parti Conservateur;Konservative Partei;Partia Konserwatywna;Partido Conservador;Partito Conservatore;Konzervatív Párt;Konzervativní Strana;Konzervatív Párt;Conservatieve Partij;Partido Conservador;Êîíñåðâàòèâíàÿ Ïàðòèÿ;Konservatiivipuolue;x
+TAB_fascist;Fascist Party;Parti Fasciste;Faschistische Partei;Partia Faszystowska;Partido Fascista;Partito Fascista;Fasiszta Párt;Fašistická Strana;Fasiszta Párt;Fascistische Partij;Partido Fascista;Ôàøèñòñêàÿ Ïàðòèÿ;Fasistinenpuolue;x
+TAB_liberal;Liberal Party;Parti Libéral;Liberale Partei;Partia Liberalna;Partido Liberal;Partito Liberale;Liberális Párt;Liberální Strana;Liberális Párt;Liberale Partij;Partido Liberal;Ëèáåðàëüíàÿ Ïàðòèÿ;Liberaalipuolue;x
+TAB_reactionary;National Party;Parti National;Nationale Partei;Partia Narodowa;Partido Nacional;Partito Nazionale;Nemzeti Párt;Národní Strana;Nemzeti Párt;Nationale Partij;Partido Nacional;Íàöèîíàëüíàÿ Ïàðòèÿ;Kansallispuolue;x
+TAB_socialist;Socialist Party;Parti Socialiste;Sozialistische Partei;Partia Socjalistyczna;Partido Socialista;Partito Socialista;Szocialista Párt;Socialistická Strana;Szocialista Párt;Socialistische Partij;Partido Socialista;Ñîöèàëèñòè÷åñêàÿ Ïàðòèÿ;Sosialistinenpuolue;x
+INC;Native Confederation;;;;;;;;;x;;;;
+INC_ADJ;Tribal;;;;;;;;;x;;;;
+KDH;Kandahar;;;;;;;;;;x;;;
+KDH_ADJ;Kandahari;;;;;;;;;;x;;;
+KDH_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KDH_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KDH_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KDH_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KDH_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KDH_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KDH_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KOH_ADJ;Haitian;;;;;;;;;;;;x
+KOH;Royaume d'Ha�ti;;;;;;;;;;;;x
+OTT_ADJ;Ottoman;;;;;;;;;;;;x
+OTT;Ottoman Empire;;;;;;;;;;;;x
+MVN_ADJ;Mavarannahran;;;;;;;;;;;;x
+MVN;Mavarannahr;;;;;;;;;;;;x
+KHW_ADJ;Khwarezmian;;;;;;;;;;;;x
+KHW;Khwarazm;;;;;;;;;;;;x

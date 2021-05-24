@@ -1,5 +1,6 @@
-owner = SPU
-controller = SPU
+owner = VOP
+controller = VOP
+add_core = VOP
 add_core = SPU
 add_core = PEU
 trade_goods = timber

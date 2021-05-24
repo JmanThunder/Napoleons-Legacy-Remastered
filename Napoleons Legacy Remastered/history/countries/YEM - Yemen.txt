@@ -26,23 +26,37 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
+# New Reforms
+conscription = no_draft
+debt_law = peonage
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+
 ruling_party = YEM_conservative
 upper_house = {
-	fascist = 0
-	liberal = 15
-	conservative = 80
-	reactionary = 5
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
+    fascist = 0
+    liberal = 15
+    conservative = 80
+    reactionary = 5
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
 }
 
-set_country_flag = existing_country
-
+set_country_flag = sunni_country
 foreign_weapons = yes_foreign_weapons
 
 # Technologies
 flintlock_rifles = 1
+
+# Inventions
+small_arms_production = yes
+ammunition_production = yes
+#big_sail_ships = yes
+#sail_ships_transport = yes
+#big_sail_support = yes
 
 # Inventions
 
@@ -52,6 +66,5 @@ nonstate_consciousness = 0
 
 oob = "YEM_oob.txt"
 1861.1.1 = {
-	oob = "/1861/YEM_oob.txt"
+    oob = "/1861/YEM_oob.txt"
 }
-

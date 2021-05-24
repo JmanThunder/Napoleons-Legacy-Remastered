@@ -1,6 +1,5 @@
-owner = USA
-controller = USA
-add_core = USA
+owner = GBR
+controller = GBR
 add_core = CAN
 trade_goods = fish
 life_rating = 35

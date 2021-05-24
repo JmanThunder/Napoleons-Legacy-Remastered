@@ -1,5 +1,7 @@
-owner = AFG
-controller = AFG
+owner = KDH
+controller = KDH
+add_core = HAZ
+add_core = KDH
 add_core = AFG
 trade_goods = cattle
 life_rating = 35

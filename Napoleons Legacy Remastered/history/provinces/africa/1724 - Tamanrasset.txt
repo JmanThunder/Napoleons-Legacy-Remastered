@@ -1,6 +1,6 @@
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = DNW
+controller = DNW
+add_core = DNW
 add_core = SCO
 trade_goods = wool
 terrain = small_island

@@ -92,7 +92,7 @@ political_decisions = {
 
 		allow = {
 			nationalism_n_imperialism = 1
-			phenomenalism = 1
+			#phenomenalism = 1
 		}
 
 		effect = {

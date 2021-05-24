@@ -1,6 +1,6 @@
-owner = ARG
-controller = ARG
+owner = ARC
+controller = ARC
 
-add_core = ARG
+add_core = ARC
 trade_goods = iron
 life_rating = 35

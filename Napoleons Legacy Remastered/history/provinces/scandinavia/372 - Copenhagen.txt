@@ -1,5 +1,6 @@
-owner = DEN
-controller = DEN
+owner = DNW
+controller = DNW
+add_core = DNW
 add_core = DEN
 trade_goods = precious_goods
 life_rating = 35

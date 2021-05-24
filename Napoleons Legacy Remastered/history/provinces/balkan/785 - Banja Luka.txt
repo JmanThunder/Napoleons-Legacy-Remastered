@@ -1,6 +1,7 @@
-owner = TUR
-controller = TUR
-add_core = TUR
+owner = OTT
+controller = OTT
+
+add_core = OTT
 add_core = BOS
 add_core = SER
 trade_goods = fruit

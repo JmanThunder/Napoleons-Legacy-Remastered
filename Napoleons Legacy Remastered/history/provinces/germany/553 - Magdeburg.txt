@@ -1,9 +1,10 @@
-owner = PRU
-controller = PRU
+owner = WST
+controller = WST
+add_core = WST
 add_core = PRU
 add_core = GER
 trade_goods = cattle
-life_rating = 40
+life_rating = 35
 1861.1.1 = {
     state_building = {
         level = 1

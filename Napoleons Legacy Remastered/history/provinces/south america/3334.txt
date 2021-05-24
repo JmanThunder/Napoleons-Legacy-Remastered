@@ -1,5 +1,7 @@
-owner = BRZ
-controller = BRZ
+owner = VOP
+controller = VOP
+add_core = VOP
 add_core = BRZ
+add_core = UPB
 trade_goods = rubber
 life_rating = 31

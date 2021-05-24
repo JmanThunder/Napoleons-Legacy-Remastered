@@ -1,7 +1,9 @@
-owner = SIC
-controller = SIC
-add_core = SIC
-add_core = ITA
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = ILL
+add_core = AUS
+add_core = SLO
 trade_goods = silk
 life_rating = 35
 1861.1.1 = {

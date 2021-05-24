@@ -1,6 +1,7 @@
 owner = BTL
 controller = BTL
 add_core = TUR
+add_core = OTT
 add_core = ARM
 add_core = BTL
 add_core = KDS

@@ -1,9 +1,11 @@
-owner = ENG
-controller = ENG
+owner = BLA
+controller = BLA
+add_core = BLA
 add_core = RPL
 add_core = MTC
+add_core = ULA
 trade_goods = grain
 terrain = steppe
 life_rating = 31
-colonial = 2
+
 1861.1.1 = { add_core = MTC }

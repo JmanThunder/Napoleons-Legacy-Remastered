@@ -1,5 +1,5 @@
-owner = ION
-controller = ION
+owner = FRA
+controller = FRA
 add_core = ION
 add_core = GRE
 trade_goods = fruit

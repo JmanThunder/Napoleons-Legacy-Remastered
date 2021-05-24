@@ -1,6 +1,6 @@
 capital = 1862
 primary_culture = kefficho
-culture = oromo
+culture = cushitic
 religion = animist
 government = absolute_monarchy
 plurality = 0.0
@@ -27,18 +27,28 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
+# New Reforms
+conscription = one_year_draft
+debt_law = peonage
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+
+set_country_flag = animist_country
+
 ruling_party = KAF_conservative
 upper_house = {
-	fascist = 0
-	liberal = 13
-	conservative = 69
-	reactionary = 18
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
+    fascist = 0
+    liberal = 13
+    conservative = 69
+    reactionary = 18
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
 }
 
-set_country_flag = existing_country
+set_country_flag = lacking_writing_system
 
 # Starting Consciousness
 consciousness = 0
@@ -46,5 +56,5 @@ nonstate_consciousness = 0
 
 oob = "KAF_oob.txt"
 1861.1.1 = {
-	oob = "/1861/KAF_oob.txt"
+    oob = "/1861/KAF_oob.txt"
 }

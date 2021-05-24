@@ -1,6 +1,7 @@
-owner = TUR
-controller = TUR
+owner = OTT
+controller = OTT
 add_core = TUR
+add_core = OTT
 trade_goods = sulphur
 life_rating = 35
 #state_building = {

@@ -1,6 +1,7 @@
-owner = BRZ
-controller = BRZ
+owner = UPB
+controller = UPB
 add_core = BRZ
+add_core = UPB
 add_core = PNB
 trade_goods = cotton
 terrain = farmlands

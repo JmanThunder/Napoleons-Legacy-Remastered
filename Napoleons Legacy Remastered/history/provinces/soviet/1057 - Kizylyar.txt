@@ -1,7 +1,9 @@
 owner = RUS
 controller = RUS
 add_core = RUS
-add_core = CHY
+add_core = NOG
+add_core = RUS
+add_core = KMY
 trade_goods = silk
 life_rating = 35
 1861.1.1 = {

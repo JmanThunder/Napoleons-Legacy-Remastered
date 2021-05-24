@@ -1,6 +1,7 @@
-owner = TUR
-controller = TUR
-add_core = TUR
+owner = OTT
+controller = OTT
+
+add_core = OTT
 add_core = BUL
 add_core = SER
 add_core = MCD

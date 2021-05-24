@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = MGL
+controller = MGL
 add_core = RUS
 add_core = SIB
 trade_goods = grain

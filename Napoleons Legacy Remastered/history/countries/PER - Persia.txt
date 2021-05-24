@@ -1,16 +1,15 @@
 capital = 1121
 primary_culture = persian
 culture = azerbaijani
-culture = hazara
 religion = shiite
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_enlightenment
-literacy = 0.07
-non_state_culture_literacy = 0.05
+nationalvalue = nv_tradition
+literacy = 0.03
+non_state_culture_literacy = 0.01
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -28,27 +27,41 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
+# New Reforms
+conscription = four_year_draft
+debt_law = peonage
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+
 ruling_party = PER_conservative
 upper_house = {
-	fascist = 0
-	liberal = 12
-	conservative = 60
-	reactionary = 28
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
+    fascist = 0
+    liberal = 12
+    conservative = 60
+    reactionary = 28
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
 }
 
-set_country_flag = existing_country
+decision = persia_1836_setup
+set_country_flag = shiite_country
 
-foreign_training = yes_foreign_training
+foreign_artillery = yes_foreign_artillery
 foreign_weapons = yes_foreign_weapons
 
 # Technologies
-military_staff_system = 1
 flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
 
 # Inventions
+small_arms_production = yes
+ammunition_production = yes
+#big_sail_ships = yes
+#sail_ships_transport = yes
+#big_sail_support = yes
 
 # Starting Consciousness
 consciousness = 0
@@ -56,20 +69,20 @@ nonstate_consciousness = 0
 
 oob = "PER_oob.txt"
 1861.1.1 = {
-	oob = "/1861/PER_oob.txt"
-	literacy = 0.12
-	non_state_culture_literacy = 0.06
+    oob = "/1861/PER_oob.txt"
+    literacy = 0.12
+    non_state_culture_literacy = 0.06
 
-	foreign_training = yes_foreign_training
-	foreign_weapons = yes_foreign_weapons
-	foreign_officers = yes_foreign_officers
-	finance_reform = yes_finance_reform
-	education_reform = yes_education_reform
+    foreign_training = yes_foreign_training
+    foreign_weapons = yes_foreign_weapons
+    foreign_officers = yes_foreign_officers
+    finance_reform = yes_finance_reform
+    education_reform = yes_education_reform
 
-	# Technologies
-	military_staff_system = 1
-	flintlock_rifles = 1
+    # Technologies
+    military_staff_system = 1
+    flintlock_rifles = 1
 
-	# Inventions
+    # Inventions
 
 }

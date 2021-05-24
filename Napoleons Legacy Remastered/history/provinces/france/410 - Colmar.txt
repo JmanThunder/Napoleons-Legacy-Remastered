@@ -1,7 +1,8 @@
 owner = FRA
 controller = FRA
 add_core = FRA
+add_core = BOR
 add_core = ALS
 trade_goods = sulphur
-life_rating = 31
+life_rating = 40
 1861.1.1 = { railroad = 3 }

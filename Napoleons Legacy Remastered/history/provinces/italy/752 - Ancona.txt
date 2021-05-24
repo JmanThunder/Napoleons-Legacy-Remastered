@@ -1,5 +1,6 @@
-owner = PAP
-controller = PAP
+owner = CIS
+controller = CIS
+add_core = CIS
 add_core = PAP
 add_core = ITA
 trade_goods = fruit

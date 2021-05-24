@@ -1,6 +1,6 @@
-owner = KHI
-controller = KHI
-add_core = KHI
+owner = MVN
+controller = MVN 
+add_core = MVN
 add_core = TKM
 terrain = desert
 trade_goods = opium

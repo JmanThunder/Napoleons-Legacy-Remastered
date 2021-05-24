@@ -1,5 +1,8 @@
-owner = NET
-controller = NET
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = FRA
+add_core = HLL
 add_core = NET
 trade_goods = wool
 life_rating = 35

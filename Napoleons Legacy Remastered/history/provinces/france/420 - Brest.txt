@@ -1,9 +1,10 @@
 owner = FRA
 controller = FRA
 add_core = FRA
+add_core = BOR
 add_core = BRT
 trade_goods = grain
-life_rating = 31
+life_rating = 40
 naval_base = 2
 #state_building = {
 #    level = 1

@@ -1,5 +1,7 @@
-owner = AUS
-controller = AUS
+owner = CIS
+controller = CIS
+add_core = CIS
+add_core = BAV
 add_core = AUS
 add_core = VEN
 trade_goods = grain

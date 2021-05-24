@@ -1,0 +1,177 @@
+#Hispanola Region (516000) #see Dominican Republic.txt for balance of region
+#Ruled by Haiti 1836
+#Port au Prince (312000/78000 POPS)
+2213 = {
+    aristocrats = {
+        culture = mulatto
+        religion = catholic
+        size = 1825
+    }
+
+    officers = {
+        culture = mulatto
+        religion = catholic
+        size = 1150
+    }
+
+    clergymen = {
+        culture = mulatto
+        religion = catholic
+        size = 1175
+    }
+
+    artisans = {
+        culture = mulatto
+        religion = catholic
+        size = 14050
+    }
+    artisans = {
+        culture = persian
+        religion = sunni
+        size = 2550
+    }
+	aristocrats = {
+        culture = white_french
+        religion = catholic
+        size = 825
+    }
+
+    officers = {
+        culture = white_french
+        religion = catholic
+        size = 150
+    }
+
+    clergymen = {
+        culture = white_french
+        religion = catholic
+        size = 175
+    }
+
+    artisans = {
+        culture = white_french
+        religion = catholic
+        size = 4050
+    }
+    soldiers = {
+        culture = afro_antillean
+        religion = catholic
+        size = 1000
+    }
+    soldiers = {
+        culture = polish
+        religion = catholic
+        size = 5000
+    }
+    farmers = {
+        culture = afro_antillean
+        religion = catholic
+        size = 168300
+    }
+}
+#Cap Haitien (204000/51000 POPS)
+2215 = {
+    aristocrats = {
+        culture = mulatto
+        religion = catholic
+        size = 550
+    }
+
+    clergymen = {
+        culture = mulatto
+        religion = catholic
+        size = 75
+    }
+	clergymen = {
+        culture = white_french
+        religion = catholic
+        size = 7500
+    }
+    artisans = {
+        culture = mulatto
+        religion = catholic
+        size = 2550
+    }
+	artisans = {
+        culture = hindi
+        religion = hindu
+        size = 2550
+    }
+    artisans = {
+        culture = urdu
+        religion = sunni
+        size = 2550
+    }
+    soldiers = {
+        culture = afro_antillean
+        religion = catholic
+        size = 2000
+    }
+	soldiers = {
+        culture = polish
+        religion = catholic
+        size = 3000
+    }
+    serfs = {
+        culture = afro_antillean
+        religion = catholic
+        size = 146825
+    }
+
+}
+3333 = {
+    aristocrats = {
+        culture = caribeno
+        religion = catholic
+        size = 55
+    }
+
+    clergymen = {
+        culture = caribeno
+        religion = catholic
+        size = 10
+    }
+
+    artisans = {
+        culture = caribeno
+        religion = catholic
+        size = 40
+    }
+
+    soldiers = {
+        culture = caribeno
+        religion = catholic
+        size = 5
+    }
+
+    farmers = {
+        culture = caribeno
+        religion = catholic
+        size = 3017
+    }
+
+    clergymen = {
+        culture = afro_caribeno
+        religion = catholic
+        size = 5
+    }
+
+    artisans = {
+        culture = afro_caribeno
+        religion = catholic
+        size = 30
+    }
+
+    soldiers = {
+        culture = afro_caribeno
+        religion = catholic
+        size = 7
+    }
+
+    farmers = {
+        culture = afro_caribeno
+        religion = catholic
+        size = 1957
+    }
+
+}

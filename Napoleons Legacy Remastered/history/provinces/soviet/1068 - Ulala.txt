@@ -1,6 +1,5 @@
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = MGL
+controller = MGL
 add_core = SIB
 # add_core = TNT
 add_core = ALT

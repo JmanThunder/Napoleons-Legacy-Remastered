@@ -1,8 +1,8 @@
-owner = PRU
-controller = PRU
-add_core = PRU
+owner = WST
+controller = WST
+add_core = WST
 add_core = WES
 add_core = GER
 trade_goods = cattle
-life_rating = 40
+life_rating = 35
 1861.1.1 = { railroad = 3 }

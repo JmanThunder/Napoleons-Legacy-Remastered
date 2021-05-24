@@ -1,5 +1,6 @@
-owner = AFG
-controller = AFG
+owner = AFS
+controller = AFS
+add_core = AFS
 add_core = AFG
 trade_goods = fruit
 life_rating = 35

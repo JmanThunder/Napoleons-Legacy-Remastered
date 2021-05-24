@@ -1,8 +1,9 @@
-owner = ENG
-controller = ENG
+owner = GBR
+controller = GBR
+add_core = GBR
 add_core = RPL
 add_core = MTC
 trade_goods = grain
 terrain = steppe
 life_rating = 31
-colonial = 2
+

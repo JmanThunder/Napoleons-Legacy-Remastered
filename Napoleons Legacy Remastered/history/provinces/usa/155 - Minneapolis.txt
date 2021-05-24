@@ -1,6 +1,5 @@
-owner = USA
-controller = USA
-add_core = USA
+owner = GBR
+controller = GBR
 trade_goods = timber
 life_rating = 35
 colonial = 2

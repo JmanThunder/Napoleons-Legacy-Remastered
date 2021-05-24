@@ -1,6 +1,6 @@
-owner = USA
-controller = USA
-
+owner = ULA
+controller = ULA
+add_core = ULA
 add_core = USA
 trade_goods = sulphur
 life_rating = 35

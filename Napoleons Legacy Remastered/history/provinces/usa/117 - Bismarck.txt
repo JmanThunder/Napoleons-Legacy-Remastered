@@ -1,7 +1,8 @@
-owner = USA
+owner = SIO
+controller = SIO
+add_core = SIO
 
-controller = USA
-
+add_core = ULA
 add_core = USA
 
 trade_goods = coal

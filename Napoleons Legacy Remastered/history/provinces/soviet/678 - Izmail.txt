@@ -1,6 +1,6 @@
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = OTT
+controller = OTT
+add_core = OTT
 add_core = MOL
 add_core = MDV
 add_core = ROM
