@@ -1,0 +1,118 @@
+#political_decisions = {
+#	reutrn_home = {
+#		picture = become_eng
+#		potential = {
+#			tag = ENG
+#			NOT = { has_country_flag = reutrned_home }
+#		}
+#		allow = {
+#			owns = 300
+#		}
+#		effect = {
+#			capital = 300
+#			GBR = {
+#				all_core = {
+#					add_core = THIS
+#					remove_core = GBR
+#				}
+#			}
+#			set_country_flag = reutrned_home
+#		}
+#	}
+#	
+#	protect_the_natives = {
+#		potential = {
+#			tag = ENG
+#			NOT = { has_country_flag = protect_the_natives }
+#		}
+#		allow = {
+#			war = no
+#			ICF = {
+#				exists = yes
+#				all_core = {
+#					OR = {
+#						owned_by = ICF
+#						owned_by = THIS
+#					}
+#				}
+#			}
+#		}
+#		effect = {
+#			ICF = {
+#				country_event = 157301
+#			}
+#			set_country_flag = protect_the_natives
+#		}
+#	}
+#	
+#	annex_native_conf = {
+#		potential = {
+#			tag = ENG
+#			is_our_vassal = ICF
+#			ICF = { exists = yes }
+#		}
+#		allow = {
+#			invention = national_fraternity
+#		}
+#		effect = {
+#			inherit = ICF
+#		}
+#	}
+#	
+#	new_england_protectorate = {
+#		potential = {
+#			tag = ENG
+#			NOT = { has_country_flag = new_england_protectorate }
+#			is_greater_power = yes
+#		}
+#		allow = {
+#			NEN = {
+#				OR = {
+#					all_core = {
+#						owned_by = THIS
+#					}
+#					AND = {
+#						exists = yes
+#						vassal_of = THIS
+#					}
+#				}
+#			}
+#		}
+#		effect = {
+#			random_country = {
+#				limit = {
+#					tag = NEN
+#					exists = yes
+#				}
+#				inherit = NEN
+#			}
+#			NEN = {
+#				all_core = {
+#					add_core = THIS
+#				}
+#			}
+#			set_country_flag = new_england_protectorate
+#		}
+#	}
+#	
+#	give_up_the_cause = {
+#		picture = become_eng
+#		potential = {
+#			tag = ENG
+#			NOT = { owns = 300 }
+#			NOT = { exists = CAN }
+#		}
+#		allow = {
+#			any_owned_province = {
+#				is_core = CAN
+#			}
+#			year = 1900
+#		}
+#		effect = {
+#			all_core = {
+#				remove_core = THIS
+#			}
+#			change_tag = CAN
+#		}
+#	}
+#}
