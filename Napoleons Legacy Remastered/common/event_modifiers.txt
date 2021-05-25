@@ -6255,3 +6255,7 @@ mass_graves = {
     icon = 20
 }
 ###########
+merchant_marine = {
+    import_cost = 0.50
+    icon = 15
+}
