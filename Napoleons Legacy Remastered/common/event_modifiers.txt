@@ -6259,3 +6259,69 @@ merchant_marine = {
     import_cost = 0.50
     icon = 15
 }
+slavery_timer = {
+	rgo_output = 0.1
+}
+
+lucky_nation = {
+	badboy = -0.02
+	prestige = 0.01
+	assimilation_rate = 0.1
+	research_points_modifier = 0.25
+	core_pop_militancy_modifier = -0.02
+	tax_efficiency = 0.02
+	population_growth = 0.01
+	supply_consumption = -0.1
+	org_regain = 0.02
+	land_unit_start_experience = 0.2
+	land_organisation = 0.2
+	naval_organisation = 0.2
+	leadership_modifier = 0.05
+	factory_output = 0.05
+	factory_owner_cost = -0.20
+	icon = 11
+}
+
+
+mass_labour = {
+	rgo_throughput = 0.3
+	factory_throughput = -0.15
+	factor_owner_cost = 0.15
+	war_exhaustion = -1
+	global_pop_militancy_modifier = 0.05
+	icon = 13
+}
+
+onward_to_progress = {
+	factory_throughput = 0.15
+	factory_owner_cost = -0.15
+	global_pop_militancy_modifier = -0.1
+	icon = 13
+}
+##### RGO Spread Events (modified to become national modifiers) #####
+country_tractors = {
+	rgo_output = 0.3
+	icon = 11
+}
+
+country_electricity = {
+	rgo_output = 0.3
+	factory_throughput = 0.05
+	icon = 11
+}
+
+country_nitroglycerin = {
+	rgo_output = 0.3
+	icon = 11
+}
+
+country_distribution_channels = {
+	rgo_output = 0.3
+	icon = 11
+}
+
+country_machine_tools = {
+	rgo_output = 0.3
+	factory_throughput = 0.05
+	icon = 11
+}

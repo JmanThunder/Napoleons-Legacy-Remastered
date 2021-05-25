@@ -17,7 +17,7 @@ country_event = {
 	option = {
 		name = "Favour Protectionism."
 		any_pop = {
-			dominant_issue {
+			dominant_issue = {
 				value = protectionism 
 				factor = 0.15
 			}

@@ -1,67 +1,67 @@
-country_event = {
-	id = 980030 
-	title = "Commie mod?"
-	desc = "Do you want to play with commie mod which adds flavour for communist nations and event chains for revolution and counter-revolution?"
-	picture = "become_leader_of_communists"
+c#ountry_event = {
+#	id = 980030 
+#	title = "Commie mod?"
+#	desc = "Do you want to play with commie mod which adds flavour for communist nations and event chains for revolution and counter-revolution?"
+#	picture = "become_leader_of_communists"
+#	
+#	trigger = { 
+#		ai = no 
+#		}
+#	
+#	fire_only_once = yes 
+#	
+#	mean_time_to_happen = {
+#		months = 1 
+#		
+#		modifier = {
+#			factor = 0.01 
+#			year = 1836 
+#			}
+#		}
+#		
+#	option = {
+#		name = "Of course, comrade"
+#		}
+#	
+#	option = {
+#		name = "Death to Marx"
+#		set_global_flag = no_commie_mod 
+#		}
+#	}
 	
-	trigger = { 
-		ai = no 
-		}
-	
-	fire_only_once = yes 
-	
-	mean_time_to_happen = {
-		months = 1 
-		
-		modifier = {
-			factor = 0.01 
-			year = 1836 
-			}
-		}
-		
-	option = {
-		name = "Of course, comrade"
-		}
-	
-	option = {
-		name = "Death to Marx"
-		set_global_flag = no_commie_mod 
-		}
-	}
-	
-country_event = {
-	id = 970120 
-	title = "Five Year Plans"
-	desc = "Do you want to enable 5 year plans which gives bonus to a certain aspect of your country?"
-	
-	trigger = {
-		year = 1836
-		NOT = { has_country_flag = start_5yp }
-	}
-	
-	mean_time_to_happen = {
-		months = 0.1
-	}
-	
-	immediate = { set_global_flag = stop_early_5yp }
-	
-	option = {
-		name = "Yes"
-		set_country_flag = start_5yp 
-	}
-	
-	option = {
-		name = "No"
-		set_country_flag = no_5yp
-		set_country_flag = start_5yp
-	}
-	
-	option = {
-		name = "Just for Communists and Fascists"
-		set_country_flag = 5yp_commie_fascist
-		set_country_flag = start_5yp
-	}
-}
+#country_event = {
+#	id = 970120 
+#	title = "Five Year Plans"
+#	desc = "Do you want to enable 5 year plans which gives bonus to a certain aspect of your country?"
+#	
+#	trigger = {
+#		year = 1836
+#		NOT = { has_country_flag = start_5yp }
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 0.1
+#	}
+#	
+#	immediate = { set_global_flag = stop_early_5yp }
+#	
+#	option = {
+#		name = "Yes"
+#		set_country_flag = start_5yp 
+#	}
+#	
+#	option = {
+#		name = "No"
+#		set_country_flag = no_5yp
+#		set_country_flag = start_5yp
+#	}
+#	
+#	option = {
+#		name = "Just for Communists and Fascists"
+#		set_country_flag = 5yp_commie_fascist
+#		set_country_flag = start_5yp
+#	}
+#}
 
 country_event = {
 	id = 970000

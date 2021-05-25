@@ -1851,6 +1851,9 @@ political_decisions = {
         }
 
         effect = {
+            set_global_flag = stop_early_5yp
+            set_country_flag = 5yp_commie_fascist
+            set_country_flag = start_5yp
             set_global_flag = 1836_set_up
             set_country_flag = existing_country
             any_country = { limit = { exists = yes } set_country_flag = existing_country }

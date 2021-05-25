@@ -48,7 +48,7 @@ country_event = {
 	option = {
 		name = "Our expansionist behavior must continue!"
 		any_pop = {
-			dominant_issue {
+			dominant_issue = {
 				value = jingoism
 				factor = 0.05
 			}
