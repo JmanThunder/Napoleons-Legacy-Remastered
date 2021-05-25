@@ -191,3 +191,18 @@ dismantling_country;Dismantling Country;;;;;;;;;;;;;;;;;;;x,,,,,
 dismantling_country_desc;Our diplomatic efforts are currently centred in the dismantlement of another country.;;;;;;;;;;;;;;;;;;;x,,,,,
 loyal_vassal;Loyal Vassal;;;;;;;;;;;;;;;;;;;x,,,,,
 loyal_vassal_desc;We will stand by our protectors.;;;;;;;;;;;;;;;;;;;x,,,,,
+#############################################;;;;;;;;;;;;;;x;;;;;;;;;;;
+#Localisations for Paradox Historical Decisions;;;;;;;;;;;;;;x;;;;;;;;;;;
+#############################################;;;;;;;;;;;;;;x;;;;;;;;;;;
+latin_monetary_union_FRA_title;Join Latin Monetary Union;;;;;;;;;;;;;x;;;;;;;;;;;
+latin_monetary_union_FRA_desc;In 1865, the Latin Monetary Union was formed by France, Belgium, Switzerland and Italy. Greece joined in 1868. The Union standardized the size, weight, denomination, and silver and gold content of the coins of member countries and it also favoured free trade. From then on, the currency of a member country was also valid in another member country.;;;;;;;;;;;;;x;;;;;;;;;;;
+latin_monetary_union_BEL_title;Join Latin Monetary Union;;;;;;;;;;;;;x;;;;;;;;;;;
+latin_monetary_union_BEL_desc;In 1865, the Latin Monetary Union was formed by France, Belgium, Switzerland and Italy. Greece joined in 1868. The Union standardized the size, weight, denomination, and silver and gold content of the coins of member countries and it also favoured free trade. From then on, the currency of a member country was also valid in another member country.;;;;;;;;;;;;;x;;;;;;;;;;;
+latin_monetary_union_SWI_title;Join Latin Monetary Union;;;;;;;;;;;;;x;;;;;;;;;;;
+latin_monetary_union_SWI_desc;In 1865, the Latin Monetary Union was formed by France, Belgium, Switzerland and Italy. Greece joined in 1868. The Union standardized the size, weight, denomination, and silver and gold content of the coins of member countries and it also favoured free trade. From then on, the currency of a member country was also valid in another member country.;;;;;;;;;;;;;x;;;;;;;;;;;
+latin_monetary_union_ITA_title;Join Latin Monetary Union;;;;;;;;;;;;;x;;;;;;;;;;;
+latin_monetary_union_ITA_desc;In 1865, the Latin Monetary Union was formed by France, Belgium, Switzerland and Italy. Greece joined in 1868. The Union standardized the size, weight, denomination, and silver and gold content of the coins of member countries and it also favoured free trade. From then on, the currency of a member country was also valid in another member country.;;;;;;;;;;;;;x;;;;;;;;;;;
+latin_monetary_union_GRE_title;Join Latin Monetary Union;;;;;;;;;;;;;x;;;;;;;;;;;
+latin_monetary_union_GRE_desc;In 1865, the Latin Monetary Union was formed by France, Belgium, Switzerland and Italy. Greece joined in 1868. The Union standardized the size, weight, denomination, and silver and gold content of the coins of member countries and it also favoured free trade. From then on, the currency of a member country was also valid in another member country.;;;;;;;;;;;;;x;;;;;;;;;;;
+latin_monetary_union;Latin Monetary Union;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;
+desc_latin_monetary_union;Our country is a member of the Latin Monetary Union. We have standardized the weights and measures of our currencies as well as the precious metals content.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;

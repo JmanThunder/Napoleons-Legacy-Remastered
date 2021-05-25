@@ -1,0 +1,182 @@
+province_event = {
+	id = 8000 
+	title = "Northern Italy"
+	desc = "Land in northern Italy is in the hands of our great empire but the people refuse to integrate and will try as hard a possible to remain Italians"
+	
+	trigger = {
+		exists = ITA 
+		NOT = {
+			OR = {
+				tag = LOM
+				tag = LUC
+				tag = MOD
+				tag = PAP
+				tag = PAR
+				tag = SAR
+				tag = SIC
+				tag = TRE
+				tag = VEN
+				tag = NIT
+				tag = SIT
+				tag = ITA
+				}
+			}
+		NOT = { has_province_flag = north_italy_province }
+		any_pop = {
+			limit = {
+				pop_majority_culture = north_italian 
+				}
+			}
+		}
+		
+	mean_time_to_happen = {
+		months = 3
+		}
+		
+	option = {
+		name = "Damn those Italians!"
+		add_core = NIT 
+		set_province_flag = north_italy_province
+		}
+	}
+
+country_event = {
+	id = 8001
+	title = "North Italy Petitions for Annexation"
+	desc = "Land in the north of Italy has gained independence from the imperial powers and now is asking to join the great state of Italy"
+	
+	trigger = {
+		tag = ITA
+		exists = NIT
+	}
+	
+	mean_time_to_happen = {
+		months = 1 
+	}
+	
+	option = {
+		name = "Of course we will accept them"
+		inherit = NIT
+		prestige = 5 
+		add_country_modifier = {
+			name = north_italy_core_2
+			duration = 120
+		}
+	}
+}
+
+country_event = {
+	id = 8003
+	title = "Remove North Italian Cores"
+	desc = "Now that we have integrated North Italy they will lose their cores"
+	
+	trigger = {
+		has_country_modifier = north_italy_core_2
+	}
+	
+	mean_time_to_happen = {
+		months = 0.3 
+	}
+	
+	option = {
+		name = "For Italy"
+		any_owned_province = {
+			limit = {
+				is_core = NIT 
+				}
+				remove_core = NIT 
+			}
+		}
+	}
+	
+province_event = {
+	id = 8004
+	title = "Southern Italy"
+	desc = "Land in Southern Italy is in the hands of our great empire but the people refuse to integrate and will try as hard a possible to remain Italians"
+	
+	trigger = {
+		exists = ITA 
+		NOT = {
+			OR = {
+				tag = LOM
+				tag = LUC
+				tag = MOD
+				tag = PAP
+				tag = PAR
+				tag = SAR
+				tag = SIC
+				tag = TRE
+				tag = VEN
+				tag = NIT
+				tag = SIT
+				tag = ITA
+				}
+			}
+		NOT = { has_province_flag = south_italy_province }
+		any_pop = {
+			limit = {
+				pop_majority_culture = south_italian 
+				}
+			}
+		}
+		
+	mean_time_to_happen = {
+		months = 3
+		}
+		
+	option = {
+		name = "Damn those Italians!"
+		add_core = SIT 
+		set_province_flag = south_italy_province
+		}
+	}
+
+country_event = {
+	id = 8005
+	title = "South Italy Petitions for Annexation"
+	desc = "Land in the north of Italy has gained independence from the imperial powers and now is asking to join the great state of Italy"
+	
+	trigger = {
+		tag = ITA
+		exists = SIT 
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	option = {
+		name = "Of course we will accept them"
+		inherit = SIT
+		add_country_modifier = {
+			name = south_italy_core_2
+			duration = 60
+		}
+	}
+}
+
+country_event = {
+	id = 8007
+	title = "Remove South Italian Cores"
+	desc = "Now that we have integrated North Italy they will lose their cores"
+	
+	trigger = {
+		has_country_modifier = south_italy_core_2 
+	}
+	
+	mean_time_to_happen = {
+		months = 0.3 
+	}
+		
+	option = {
+		name = "For Italy"
+		any_owned_province = {
+			limit = {
+				is_core = SIT 
+				}
+				remove_core = SIT 
+			}
+		}
+	}
+	
+	
