@@ -262,3 +262,13 @@ MVN_ADJ;Mavarannahran;;;;;;;;;;;;x
 MVN;Mavarannahr;;;;;;;;;;;;x
 KHW_ADJ;Khwarezmian;;;;;;;;;;;;x
 KHW;Khwarazm;;;;;;;;;;;;x
+WST_ADJ;Westfalian;Westfalian;Westfalian;;;;;;;;;;;x;
+WST;Westfalen;Westfalen;Westfalen;;;;;;;;;;;x;
+WST_proletarian_dictatorship;Westfalen;Westfalen;Westfalen;;;;;;;;;;;x;
+WST_presidential_dictatorship;Westfalen;Westfalen;Westfalen;;;;;;;;;;;x;
+WST_bourgeois_dictatorship;Westfalen;Westfalen;Westfalen;;;;;;;;;;;x;
+WST_fascist_dictatorship;Westfalen;Westfalen;Westfalen;;;;;;;;;;;x;
+WST_absolute_monarchy;Westfalen;Westfalen;Westfalen;;;;;;;;;;;x;
+WST_prussian_constitutionalism;Westfalen;Westfalen;Westfalen;;;;;;;;;;;x;
+WST_hms_government;Westfalen;Westfalen;Westfalen;;;;;;;;;;;x;
+WST_democracy;Westfalen;Westfalen;Westfalen;;;;;;;;;;;x;
