@@ -4,11 +4,7 @@ political_decisions = {
 			tag = SWI
 			owns = 608
 			608 = {
-				OR = {
-					is_core = PRU
-					is_core = NGF
-					is_core = GER
-				}
+				is_core = PRU
 			}
 		}
 		allow = {
@@ -89,6 +85,7 @@ political_decisions = {
 		
 		allow = {
 			invention = machine_tools
+			invention = steam_shovel
 		}
 		
 		effect = {
@@ -97,6 +94,16 @@ political_decisions = {
 			}
 			prestige = 5
 			set_country_flag = gotthard_tunnel_built
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { 
+					steel_railroad = 1
+					year = 1880 
+				}
+			}
 		}
 	}
 }

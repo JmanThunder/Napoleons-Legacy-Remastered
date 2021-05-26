@@ -6325,3 +6325,335 @@ country_machine_tools = {
 	factory_throughput = 0.05
 	icon = 11
 }
+##### Apocalypse 1836 #####
+
+state_of_emergency = {
+	mobilisation_size = 0.05
+	land_organisation = 0.05
+	naval_organisation = 0.05
+	org_regain = 0.1
+	icon = 15
+}
+
+zombie_outbreak = {
+	immigrant_attract = -1.0
+	pop_consciousness_modifier = -0.3
+	pop_militancy_modifier = 1.0
+	population_growth = -0.020
+	icon = 20
+}
+
+do_not_annex = {
+	immigrant_attract = -.001
+	icon = 20
+}
+
+accepts_new_provinces = {
+	immigrant_attract = -.001
+	icon = 20
+}
+
+##### Weapons of Mass Destruction #####
+
+developing_bioweapons = {
+	tax_efficiency = -0.15
+	tariff_efficiency_modifier = -0.05
+	badboy = 0.1
+	icon = 15
+}
+
+experimental_bioweapon = {
+	prestige = 1
+	badboy = 0.1
+	icon = 15
+}
+
+bioweapon_cooldown = {
+	badboy = 0.2
+	icon = 16
+}
+craftsmen_fix_cooldown = {
+	icon = 12
+}
+
+bureaucrats_fix_cooldown = {
+	icon = 12
+}
+
+migration_factor_reduced = {
+    icon = 14
+	immigrant_push = -100
+}
+
+timber_employment_fix = {
+    local_RGO_throughput = -0.95
+    icon = 14
+}
+###PUIR - Generic Neutrality###
+generic_neutrality = {
+	max_military_spending = -0.25
+	leadership_modifier = -0.25
+	#mobilisation_size = 0.01
+	RGO_throughput = 0.1
+	#global_pop_militancy_modifier = -0.01
+	icon = 7
+}
+
+###PUIR - Paraguay###
+Francias_Enlightenment = {
+	rgo_output = 0.05
+	global_immigrant_attract = 0.05
+	unit_recruitment_time = -0.1
+	mobilisation_size = 0.05
+	min_military_spending = 0.5
+	icon = 17
+}
+
+### POD-Ottomans###
+tanzimat_era = {
+	research_points_modifier = 0.2
+	global_pop_consciousness_modifier = 0.02
+	icon = 7
+}
+### POD-Chile###
+gateway_to_harbor = {
+	immigrant_attract = 1
+	life_rating = 0.02
+	icon = 17
+}
+### POD-Panjab###
+shastar_vidya = {
+	org_regain = 0.5
+	land_organisation = 0.5
+	land_unit_start_experience = 3
+	mobilisation_size = 0.02
+	icon = 15
+}
+### POD-Belgium ###
+force_publique = {
+	local_RGO_throughput = 0.15
+	pop_militancy_modifier = 0.03
+	icon = 1
+}
+### POD-Canada ###
+rcmp = {
+	core_pop_militancy_modifier = -0.02
+	icon = 1
+}
+
+### POD-Germany ###
+otto_von_bismarck = {
+	prestige = 0.02
+	core_pop_militancy_modifier = -0.02
+	pop_consciousness_modifier = 0.02
+	diplomatic_points_modifier = 0.25
+	ruling_party_support = 0.5
+	badboy = -0.01
+	icon = 17
+}
+### POD-Irish Famine###
+irish_potato_blight = {
+	local_RGO_output = -0.9
+	pop_militancy_modifier = 0.3
+	pop_consciousness_modifier = 0.3
+	immigrant_push = 1.75
+	local_factory_output = -0.25
+	population_growth = -0.001
+	icon = 4
+}
+irish_republicans = {
+	pop_militancy_modifier = 0.02
+	pop_consciousness_modifier = 0.05
+	icon = 18
+}
+###POD - Swiss Neutrality###
+neutrality = {
+	max_military_spending = -0.1
+	leadership_modifier = -0.5
+	mobilisation_size = 0.02
+	prestige = -0.01
+	RGO_throughput = 0.4
+	global_pop_militancy_modifier = -0.02
+	icon = 7
+}
+###POD - Arabia ###
+holy_city = {
+	immigrant_attract = 0.5
+	pop_militancy_modifier = -0.02
+	prestige = 0.05
+	icon = 15
+}
+### Slayzer-Serbia###
+karadzic_reforms = {
+	education_efficiency_modifier = 0.1
+	icon = 5
+}
+###Latin Monetary Union###
+latin_monetary_union = {
+	tax_efficiency = 0.05
+	icon = 9
+}
+### Icen-Immigration###
+Bonus_Immigration = {
+	global_immigrant_attract = 0.15
+	icon = 17
+}
+
+Hazardous_Journey = {
+	global_immigrant_attract = -0.15 #-15% immigration
+	icon = 18
+}
+###PUIR-Russia###
+dmitry_alekseyevich_milyutin = {
+	unit_recruitment_time = -0.1
+	mobilisation_size = 0.01
+	army_tech_research_bonus = 0.1
+	land_organisation = -0.1
+	supply_consumption = -0.1
+	min_military_spending = 0.3
+	icon = 17
+}
+
+ukrainian_breadbasket = {
+	population_growth = 0.001
+	icon = 19
+}
+
+big_ukrainian_breadbasket = {
+	population_growth = 0.001
+	mine_rgo_size = 0.2
+	farm_rgo_size = 0.2
+	icon = 19
+}
+ meiji_restoration_boost = {
+	research_points_modifier = 0.3
+	icon = 3
+}
+
+ dar_al_funun = {
+	research_points_modifier = 0.2
+	icon = 3
+}
+
+#french_growth_nerf = {
+#	global_population_growth = -0.01
+#	icon = 18
+#}
+
+nationalist_agitation = {
+	pop_consciousness_modifier = 0.25
+	pop_militancy_modifier = 0.05
+	icon = 4
+}
+
+apache_raiders	= {
+	population_growth = -0.002	
+	pop_militancy_modifier = 0.2
+	icon = 18
+}
+
+liberian_research_boost = {
+	research_points_modifier = 0.15
+	icon = 3
+}
+
+###Eidur-Infamy Limit Penalty###
+badboymod = {
+	global_population_growth = -0.005
+	research_points_modifier = -1.0
+	global_immigrant_attract = -4.0
+	diplomatic_points_modifier = -1.0
+	org_regain = -0.2
+    land_organisation = -0.2
+    naval_organisation = -0.2
+    factory_throughput = -0.5
+    RGO_throughput = -0.5
+    prestige = -0.2
+    war_exhaustion = 2
+	icon = 17
+}
+
+### PUIR-Canada###
+dominion_lands_act = {
+	global_immigrant_attract = 0.10
+	global_assimilation_rate = 0.25
+	icon = 17
+}
+
+### PUIR-Portugal###
+instituto_industrial_lisboa = {
+	education_efficiency_modifier = 0.1
+	commerce_tech_research_bonus = 0.05
+	icon = 5
+}
+
+escola_industrial_porto = {
+	factory_throughput = 0.05
+	industry_tech_research_bonus = 0.1
+	icon = 11
+}
+
+### PUIR-Ottomans###
+ottoman_bank = {
+	tax_efficiency = 0.02
+	loan_interest = -0.02
+	icon = 9
+}
+
+### PUIR-France###
+louis_napoleon_iii = {
+	prestige = 0.02
+	culture_tech_research_bonus = 0.05
+	ruling_party_support = 0.5
+	core_pop_militancy_modifier = -0.04
+	core_pop_consciousness_modifier = -0.04
+	leadership_modifier = -0.25
+	land_organisation = -0.05
+	max_tariff = -0.05
+	min_military_spending = 0.3
+	icon = 17
+}
+
+### PUIR-Romania###
+alexandru_ioan_cuza = {
+	prestige = 0.02
+	diplomatic_points_modifier = 0.15
+	ruling_party_support = 0.1
+	political_reform_desire = 0.05
+	social_reform_desire = 0.05
+	core_pop_militancy_modifier = -0.01
+	core_pop_consciousness_modifier = 0.02
+	icon = 17
+}
+
+### PUIR-Netherlands###
+cultuurstelsel = {
+	local_RGO_throughput = 0.05
+	prestige = 0.01
+	immigrant_attract = 0.25
+	pop_militancy_modifier = 0.01
+	pop_consciousness_modifier = 0.02
+	icon = 15
+}
+
+### PUIR-Belgium###
+boulevards_of_brussels = {
+	local_RGO_throughput = 0.05
+	local_factory_throughput = 0.05
+	local_ruling_party_support = -0.2
+	icon = 15
+}
+
+### PUIR-Nepal###
+nepal_boom = {
+	farm_rgo_size = 0.8
+	icon = 19
+}
+
+### PUIR-Baku###
+oil_metropolis = {
+	mine_rgo_size = 1.0
+	immigrant_attract = 0.2
+	local_RGO_throughput = 1.0
+	icon = 19
+}

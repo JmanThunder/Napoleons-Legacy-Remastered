@@ -1001,7 +1001,7 @@ country_event = {
 	news_desc_short = "EVTDESC44120_NEWS_SHORT"
 
 	trigger = {
-		tag = USA
+		tag = USA 
 		moralism = 5
 		year = 1838
 		NOT = {
@@ -1012,12 +1012,13 @@ country_event = {
 	fire_only_once = no
  
 	mean_time_to_happen =  {
-		months = 360
+		months = 60
 
 		modifier = {
 			factor = 0.9 #increase likelihood to happen
 			year = 1885
 		}
+
 
 		modifier = {
 			factor = 0.9 #increase likelihood to happen
@@ -1035,13 +1036,13 @@ country_event = {
 			limit = {
 				has_pop_religion = protestant
 			}
-			consciousness = 0.2
+			consciousness = 1
 			dominant_issue = {
-				factor = 0.04
+				factor = 0.02
 				value = moralism
 			}		
 			dominant_issue = {
-				factor = 0.08
+				factor = 0.04
 				value = secularized
 			}
 		}

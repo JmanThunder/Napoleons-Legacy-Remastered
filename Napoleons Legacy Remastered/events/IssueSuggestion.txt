@@ -343,6 +343,11 @@ country_event = {
 			factor = 0.9
 			poor_strata_life_needs = 0.8
 		}
+		
+		modifier = {
+			factor = 1.5
+			poor_strata_life_needs = 1
+		}
 	}
 	
 	option = {

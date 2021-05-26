@@ -1,14 +1,15 @@
 political_decisions = {	
 
-mycenaean_excavations = {
+	mycenaean_excavations = {
 		potential = {
 			civilized = yes
-                        functionalism = 1
 			revolution_n_counterrevolution = 1
-			NOT = { 
-                                owns = 840 
-                        }
+			exists = GRE
+			840 = {
+				owned_by = GRE
+			}
 			NOT = {
+				owns = 840
 				has_global_flag = agamemnon_found
 				has_country_modifier = mycenaean_excavations
 				has_country_flag = greece_refused
@@ -17,20 +18,19 @@ mycenaean_excavations = {
 		
 		allow = {
 			prestige = 100
-                        invention = early_archaeology
 		}
 		
 		effect = {		
-			840 = {
-			       owner = { country_event = 190401 }
+			GRE = {
+				country_event = 190401
 			}
 		}
 	}
 	
 	forced_mycenaean_excavations = {
+		picture = mycenaean_excavations
 		potential = {
 			is_greater_power = yes
-                        functionalism = 1
 			revolution_n_counterrevolution = 1
 			OR = {
 				owns = 840
@@ -48,7 +48,6 @@ mycenaean_excavations = {
 		
 		allow = {
 			civilized = yes
-                        invention = early_archaeology
 			OR = {
 				owns = 840
 				840 = {
@@ -66,8 +65,6 @@ mycenaean_excavations = {
 			}
 		}
 	}
-
-
 
 	minoan_excavations = {
 		potential = {
@@ -89,9 +86,7 @@ mycenaean_excavations = {
 		}
 		
 		allow = {
-                        social_alienation = 1
 			prestige = 100
-                        invention = modern_archaeology
 		}
 		
 		effect = {
@@ -109,7 +104,6 @@ mycenaean_excavations = {
 		potential = {
 			is_greater_power = yes
 			revolution_n_counterrevolution = 1
-                        social_alienation = 1
 			OR = {
 				owns = 847
 				847 = {
@@ -125,9 +119,7 @@ mycenaean_excavations = {
 		}
 		
 		allow = {
-                        social_alienation = 1
 			civilized = yes
-                        invention = modern_archaeology
 			OR = {
 				owns = 847
 				847 = {

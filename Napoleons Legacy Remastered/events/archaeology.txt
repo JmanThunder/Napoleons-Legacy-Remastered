@@ -1,12 +1,8 @@
-################################
-# Greece QUESTIONS AND ANSWERS #
-################################
-
 country_event = {
 	id = 190401
 	title = "Mycenaean Excavations"
 	desc = "A great power has come to us asking to excavate local ruins."
-	picture = "Mykene"
+	picture = "ValleyoftheKings"
 	
 	is_triggered_only = yes
 	
@@ -25,7 +21,7 @@ country_event = {
 			modifier = {
 				factor = 3
 				FROM = {
-					prestige = 65
+					prestige = 365
 				}
 			}
 			modifier = {
@@ -50,7 +46,7 @@ country_event = {
 	id = 190411
 	title = "Greece permits!"
 	desc = "The Greeks have agreed that we may excavate at Mycenae"
-	picture = "Mykene"
+	picture = "ValleyoftheKings"
 	
 	is_triggered_only = yes
 	
@@ -74,7 +70,7 @@ country_event = {
 	id = 190421
 	title = "Greece refuses!"
 	desc = "The foolish Greeks have refused our antiquarians access!"
-	picture = "Mykene"
+	picture = "ValleyoftheKings"
 	
 	is_triggered_only = yes
 	
@@ -94,12 +90,12 @@ country_event = {
 	id = 190431
 	title = "Legal Issues"
 	desc = "There's been some unfortunate allegations in Greece..."
-	picture = "Mykene"
+	picture = "ValleyoftheKings"
 	
 	trigger = {
 		has_country_modifier = mycenaean_excavations
 		NOT = {
-			owns = 1767
+			owns = 840
 		}
 	}
 	
@@ -110,6 +106,13 @@ country_event = {
 	option = {
 		name = "A little money may help?"
 		treasury = -20000
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.1
+				NOT = { money = 20000 }
+			}
+		}
 	}
 	
 	option = {
@@ -119,6 +122,9 @@ country_event = {
 			value = -20
 		}
 		clr_global_flag = mycenaean_excavation_rights
+		ai_chance = {
+			factor = 50
+		}
 	}
 }
 
@@ -127,45 +133,27 @@ country_event = {
 	id = 190441
 	title = "Greek Tomb discovered!"
 	desc = "A royal tomb has been found in Greece"
-	picture = "Loewentor"
+	picture = "Tomb"
 	
 	trigger = {
 		has_country_modifier = mycenaean_excavations
 	}
 	
 	mean_time_to_happen = {
-		months = 350
-			modifier = {
-			factor = 0.9
-			invention = modern_archaeology
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = museum_build
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = archaeological_society
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = famous_archaeologist
-		}
+		months = 200
 	}
 	
 	option = {
-		name = "Excellent."
-		prestige = 10
+		name = "excellent"
 		years_of_research = 0.1
 	}
 }
 
-#Fraud
 country_event = {
 	id = 190451
 	title = "Accusations of Fraud"
 	desc = "Some of the jewelery our excavators have found is of questionable validity..."
-	picture = "Mykene"
+	picture = "Egyptian"
 		
 	trigger = {
 		has_country_modifier = mycenaean_excavations
@@ -173,34 +161,23 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 200
-		modifier = {
-			factor = 3
-			invention = modern_archaeology
-		}
-                modifier = {
-			factor = 1.2
-                        has_country_flag = archaeological_society
-		}
-                modifier = {
-			factor = 1.3
-                        has_country_flag = famous_archaeologist
-		}
 	}
 	
 	option = {
 		name = "Blast!"
-		any_pop = {
-			militancy = 1
-		}
+		prestige = -5
 	}
 }
 
-#Agamemnon's mask
 country_event = {
 	id = 190461
 	title = "The Face of Agamemnon"
 	desc = "And as we pulled the mask from the body, I gazed into the face of Agamemnon."
-	picture = "Mask"	
+	news = yes
+	news_desc_long = "EVTDESC190461_NEWS_LONG"
+	news_desc_medium = "EVTDESC190461_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC190461_NEWS_SHORT"
+	picture = "Egyptian"	
 	
 	trigger = {
 		has_country_modifier = mycenaean_excavations
@@ -209,44 +186,17 @@ country_event = {
 		}
 	}
 	
+	major = yes
+	
 	mean_time_to_happen = {
-		months = 700
-			modifier = {
-			factor = 0.9
-			invention = modern_archaeology
-		}
-                modifier = {
-			factor = 0.9
-			has_country_modifier = mesopotamian_excavations
-		}
-                modifier = {
-			factor = 0.9
-			has_country_modifier = inca_excavations
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = had_arch_exhibition
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = museum_build
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = archaeological_society
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = famous_archaeologist
-		}
+		months = 200
 	}
 	
 	option = {
-		name = "Overwhelming..."
-		prestige = 50
-		years_of_research = 0.5
+		name = "Splendid"
+		prestige = 30
+		years_of_research = 1
 		set_global_flag = agamemnon_found
-                country_event = 201070
 		any_country = {
 			remove_country_modifier = mycenaean_excavations
 		}
@@ -255,12 +205,14 @@ country_event = {
 	}
 }
 
-#Crete Question
+
+
+
 country_event = {
 	id = 1904012
 	title = "Minoan Excavations"
 	desc = "A great power has come to us asking to excavate local ruins."
-	picture = "Knossos"
+	picture = "ValleyoftheKings"
 	
 	is_triggered_only = yes
 	
@@ -304,7 +256,7 @@ country_event = {
 	id = 1904112
 	title = "Crete permits!"
 	desc = "The Creteans have agreed that we may excavate at Knossos"
-	picture = "Knossos"
+	picture = "ValleyoftheKings"
 	
 	is_triggered_only = yes
 	
@@ -328,7 +280,7 @@ country_event = {
 	id = 1904212
 	title = "Crete refuses!"
 	desc = "The foolish Creteans have refused our antiquarians access!"
-	picture = "Knossos"
+	picture = "ValleyoftheKings"
 	
 	is_triggered_only = yes
 	
@@ -348,7 +300,7 @@ country_event = {
 	id = 1904312
 	title = "Legal Issues"
 	desc = "There's been some unfortunate allegations in Crete..."
-	picture = "Knossos"
+	picture = "ValleyoftheKings"
 	
 	trigger = {
 		has_country_modifier = minoan_excavations
@@ -359,18 +311,6 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 200
-		modifier = {
-			factor = 3
-			invention = modern_archaeology
-		}
-                modifier = {
-			factor = 1.2
-                        has_country_flag = archaeological_society
-		}
-                modifier = {
-			factor = 1.3
-                        has_country_flag = famous_archaeologist
-		}
 	}
 	
 	option = {
@@ -398,50 +338,38 @@ country_event = {
 	}
 }
 
-#Knossos Palace Found
+# Tomb Found
 country_event = {
 	id = 1904412
 	title = "Great Palace discovered!"
 	desc = "A great palace has been found in Knossos!"
-	picture = "Knossos_palace"
+	picture = "ValleyoftheKings"
 	
 	trigger = {
 		has_country_modifier = minoan_excavations
 	}
 	
 	mean_time_to_happen = {
-		months = 350
-			modifier = {
-			factor = 0.9
-			invention = modern_archaeology
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = museum_build
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = archaeological_society
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = famous_archaeologist
-		}
+		months = 200
 	}
 	
 	option = {
 		name = "Intriguing"
-		prestige = 10
 		years_of_research = 0.1
 	}
 }
 
-#The Labyrinth
+
 country_event = {
 	id = 1904612
 	title = "The Labyrinth"
-	desc = "The handiwork of Daedalus, to hold the Minotaur."
-	picture = "Labyrinth"	
+	desc = "EVTDESC1904612_NEWS_LONG"
+	news = yes
+	news_title = "EVTNAME1904612_NEWS_TITLE"
+	news_desc_long = "EVTDESC1904612_NEWS_LONG"
+	news_desc_medium = "EVTDESC1904612_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC1904612_NEWS_SHORT"
+	picture = "Egyptian"	
 	
 	trigger = {
 		has_country_modifier = minoan_excavations
@@ -453,42 +381,12 @@ country_event = {
 	major = yes
 	
 	mean_time_to_happen = {
-
-			months = 900
-			
-                modifier = {
-			factor = 0.9
-			invention = modern_archaeology
-		}
-                modifier = {
-			factor = 0.9
-			has_country_modifier = mesopotamian_excavations
-		}
-                modifier = {
-			factor = 0.9
-			has_country_modifier = inca_excavations
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = had_arch_exhibition
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = museum_build
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = archaeological_society
-		}
-                modifier = {
-			factor = 0.9
-                        has_country_flag = famous_archaeologist
-		}
+		months = 400
 	}
 	
 	option = {
 		name = "Splendid"
-		prestige = 50
+		prestige = 20
 		years_of_research = 0.5
 		set_global_flag = minos_found
 		any_country = {
@@ -502,23 +400,27 @@ country_event = {
 country_event = {
 	id = 1905101
 	title = "Homo Neanderthalensis discovered!"
-	desc = "The bones of primative ancient men have been found near Dusseldorf."
-	picture = "paleoanthropology"
+	desc = "EVTDESC1905101_NEWS_LONG"
+	news = yes
+	news_title = "EVTNAME1905101_NEWS_TITLE"
+	news_desc_long = "EVTDESC1905101_NEWS_LONG"
+	news_desc_medium = "EVTDESC1905101_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC1905101_NEWS_SHORT"
+	picture = "ValleyoftheKings"
 	
 	trigger = {
-
 		NOT = {
 			has_global_flag = neanderthal
 		}
 		is_greater_power = yes
 		OR = {
-				owns = 840
-				840 = {
-					owner = {
-						in_sphere = THIS
-					}
+			owns = 840
+			840 = {
+				owner = {
+					in_sphere = THIS
 				}
 			}
+		}
 		cheap_steel = 1
 	}
 	
@@ -531,7 +433,6 @@ country_event = {
 	option = {
 		name = "Marvellous!"
 		set_global_flag = neanderthal
-		prestige = 20
 		years_of_research = 0.5
 	}
 	
@@ -539,8 +440,13 @@ country_event = {
 country_event = {
 	id = 1905201
 	title = "Homo Erectus discovered!"
-	desc = "The bones of primative ancient men have been found in Java."
-	picture = "paleoanthropology"
+	desc = "EVTDESC1905201_NEWS_LONG"
+	news = yes
+	news_title = "EVTNAME1905201_NEWS_TITLE"
+	news_desc_long = "EVTDESC1905201_NEWS_LONG"
+	news_desc_medium = "EVTDESC1905201_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC1905201_NEWS_SHORT"
+	picture = "ValleyoftheKings"
 	
 	trigger = {
 
@@ -549,13 +455,13 @@ country_event = {
 		}
 		is_greater_power = yes
 		OR = {
-				owns = 1414
-				1414 = {
-					owner = {
-						in_sphere = THIS
-					}
+			owns = 1414
+			1414 = {
+				owner = {
+					in_sphere = THIS
 				}
 			}
+		}
 		phenomenology_n_hermeneutic = 1
 	}
 	
@@ -568,8 +474,7 @@ country_event = {
 	option = {
 		name = "Marvellous!"
 		set_global_flag = erectus
-		prestige = 30
-		years_of_research = 0.75
+		years_of_research = 0.5
 	}
 	
 }
@@ -577,23 +482,28 @@ country_event = {
 country_event = {
 	id = 1905301
 	title = "Australopithecus africanus discovered!"
-	desc = "The bones of primative ancient men have been found in Taung!"
-	picture = "paleoanthropology"
+	desc = "EVTDESC1905301_NEWS_LONG"
+	news = yes
+	news_title = "EVTNAME1905301_NEWS_TITLE"
+	news_desc_long = "EVTDESC1905301_NEWS_LONG"
+	news_desc_medium = "EVTDESC1905301_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC1905301_NEWS_SHORT"
+	picture = "ValleyoftheKings"
 	
 	trigger = {
 
 		NOT = {
-			has_global_flag = africanus #hahaahahahahahahhhhahaha
+			has_global_flag = africanus
 		}
 		is_greater_power = yes
 		OR = {
-				owns = 2095
-				2095 = {
-					owner = {
-						in_sphere = THIS
-					}
+			owns = 2095
+			2095 = {
+				owner = {
+					in_sphere = THIS
 				}
 			}
+		}
 		anti__rationalism = 1
 		year = 1920
 	}
@@ -607,8 +517,7 @@ country_event = {
 	option = {
 		name = "Marvellous!"
 		set_global_flag = africanus
-		prestige = 50
-		years_of_research = 1
+		years_of_research = 0.5
 	}
 	
 }

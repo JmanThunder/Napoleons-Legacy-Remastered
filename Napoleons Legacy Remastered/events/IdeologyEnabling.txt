@@ -65,10 +65,8 @@ country_event = {
 	option = {
 		name = "EVTOPTA1000"
 		enable_ideology = socialist
-		set_country_flag = socialist_translation
 	}
 }
-
 
 #####################
 # Enable Communists
