@@ -37,7 +37,7 @@ citizens_rights = culture_voting_only
 border_policy = open_borders
 
 set_country_flag = catholic_country
-
+oob = "PLC_oob.txt"
 ruling_party = PLC_conservative
 upper_house = {
     fascist = 0
